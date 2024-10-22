@@ -15,6 +15,19 @@ Route::get('signout', [LoginController::class, 'signOut'])->name('signout');
 
 
 
+Route::get('admin/users/login', [LoginController::class, 'index'])->name('login');
+Route::post('admin/users/login/store', [LoginController::class, 'store']);
+
+Route::get('signout', [LoginController::class, 'signOut'])->name('signout');
+Route::get('admin/users/register', [LoginController::class, 'indexRegister'])->name('indexRegister');
+Route::post('admin/users/register', [LoginController::class, 'register'])->name('register');
+
+
+Route::get('admin/users/forget-password', [LoginController::class, 'forgetPassword'])->name('forgetPassword'); //Hien thi form quen mat khau
+Route::post('admin/users/forget-password', [LoginController::class, 'postForgetPass'])->name('postForgetPass'); // khi submit quen mat khau
+Route::get('admin/users/get-password', [LoginController::class, 'getPassword'])->name('getPassword');    // gui link
+Route::get('admin/users/get-password/{customer}/{token}', [LoginController::class, 'postGetPassword']);    // nhap lai mat khau 2 lan
+
 
 Route::middleware(['auth'])->group(function () {
 
