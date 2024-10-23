@@ -8,10 +8,7 @@ use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Admin\SliderController;
 
 
-Route::get('admin/users/login', [LoginController::class, 'index'])->name('login');
-Route::post('admin/users/login/store', [LoginController::class, 'store']);
 
-Route::get('signout', [LoginController::class, 'signOut'])->name('signout');
 
 
 
