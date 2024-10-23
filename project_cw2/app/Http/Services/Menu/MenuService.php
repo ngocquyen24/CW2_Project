@@ -14,20 +14,7 @@ class MenuService
     {
         return Menu::where('parent_id', 0)->get();
     }
-
-    public function show()
-    {
-        return Menu::select('name', 'id')
-            ->where('parent_id', 0)
-            ->orderbyDesc('id')
-            ->get();
-    }
-
-    public function getAll()
-    {
-        return Menu::orderbyDesc('id')->paginate(20);
-    }
-
+    //rang buoc valida
     public function create($request)
     {
         try {
@@ -59,6 +46,21 @@ class MenuService
 
         return true;
     }
+// hien thi ra admin
+    public function show()
+    {
+        return Menu::select('name', 'id')
+            ->where('parent_id', 0)
+            ->orderbyDesc('id')
+            ->get();
+    }
+
+    public function getAll()
+    {
+        return Menu::orderbyDesc('id')->paginate(20);
+    }
+
+
 
     public function update($request, $menu): bool
     {
@@ -75,7 +77,7 @@ class MenuService
         Session::flash('success', 'Cập nhật thành công Danh mục');
         return true;
     }
-
+// xoa danh muc theo id
     public function destroy($request)
     {
         $id = (int)$request->input('id');
@@ -87,25 +89,11 @@ class MenuService
         return false;
     }
 
-
+//tìm id đầu tiên nếu ko tìm thấy thông báo lỗi 404
     public function getId($id)
     {
         return Menu::where('id', $id)->where('active', 1)->firstOrFail();
     }
 
-    public function getProduct($menu, $request)
-    {
-        $query = $menu->products()
-            ->select('id', 'name', 'price', 'price_sale', 'thumb')
-            ->where('active', 1);
-
-        if ($request->input('price')) {
-            $query->orderBy('price', $request->input('price'));
-        }
-
-        return $query
-            ->orderByDesc('id')
-            ->paginate(12)
-            ->withQueryString();
-    }
+ 
 }
