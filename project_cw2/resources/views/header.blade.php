@@ -8,7 +8,7 @@
 
                 <!-- Logo desktop -->
                 <a href="#" class="logo">
-                    <h1 style=" font-family: 'PlayfairDisplay-Bold'; color: black;" >PizzaGut</h1>
+                    <h1 style=" font-family: 'PlayfairDisplay-Bold'; color: black;" >ChickenHappy</h1>
                 </a>
 
                 <!-- Menu desktop -->
@@ -90,7 +90,7 @@
                 <img src="/template/images/icons/icon-close2.png" alt="CLOSE">
             </button>
 
-            <form class="wrap-search-header flex-w p-l-15">
+            <form action="{{ route('search.products') }}" class="wrap-search-header flex-w p-l-15" method="GET">
                 <button class="flex-c-m trans-04">
                     <i class="zmdi zmdi-search"></i>
                 </button>
