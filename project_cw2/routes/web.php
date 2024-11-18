@@ -1,15 +1,20 @@
 <?php
 
+use App\Models\Customer;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Admin\Users\LoginController;
 use App\Http\Controllers\Admin\MainController;
 use App\Http\Controllers\Admin\MenuController;
-use App\Http\Controllers\Admin\ProductController;
+use App\Http\Controllers\ProductControllerView;
 use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\ProductControllerView;
 use App\Http\Controllers\SliderControllerView;
+use App\Http\Controllers\Admin\ProductController;
+use App\Http\Controllers\Admin\Users\LoginController;
+use App\Http\Controllers\Customer\LoginCustomerController;
+
 
 Route::get('admin/users/login', [LoginController::class, 'index'])->name('login');
+
 Route::post('admin/users/login/store', [LoginController::class, 'store']);
 
 Route::get('signout', [LoginController::class, 'signOut'])->name('signout');
@@ -57,6 +62,7 @@ Route::middleware(['auth'])->group(function () {
         #Cart
         Route::get('customers', [\App\Http\Controllers\Admin\CartController::class, 'index']);
         Route::get('customers/view/{customer}', [\App\Http\Controllers\Admin\CartController::class, 'show']);
+        Route::DELETE('destroyCartAdmin', [\App\Http\Controllers\Admin\CartController::class, 'destroy']);
     });
 });
 
@@ -80,7 +86,23 @@ Route::get('admin/users/forget-password',[LoginController::class, 'forgetPasswor
 Route::post('admin/users/forget-password',[LoginController::class, 'postForgetPass'])->name('postForgetPass'); // khi submit quen mat khau
 Route::get('admin/users/get-password',[LoginController::class, 'getPassword'])->name('getPassword');    // gui link
 Route::get('admin/users/get-password/{customer}/{token}',[LoginController::class, 'postGetPassword']);    // nhap lai mat khau 2 lan
-
-
 Route::get('/search-products', [ProductControllerView::class, 'searchProduct'])->name('search.products');
 Route::get('/list', [ProductControllerView::class, 'searchProduct'])->name('list');
+
+//Customer
+Route::get('customer/login', [LoginCustomerController::class, 'index'])->name('login.customer');
+Route::get('customer/register', [LoginCustomerController::class, 'indexRegister'])->name('indexRegister.customer');
+Route::post('customer/register', [LoginCustomerController::class, 'register'])->name('register.customer');
+
+Route::middleware(['auth'])->group(function () {
+
+    Route::prefix('customer')->group(function () {
+        Route::get('/', [MainController::class, 'index'])->name('admin');
+
+
+
+    });
+});
+
+
+

@@ -18,7 +18,7 @@ class ProductControllerView extends Controller
         $this->productService = $productService;
     }
 
-    public function index($id = '')
+    public function index($id = '', $slug = '', Request $request)
     {
         $product = $this->productService->show($id);
         $productsMore = $this->productService->more($id);

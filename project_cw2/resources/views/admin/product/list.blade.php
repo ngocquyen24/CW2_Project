@@ -9,6 +9,7 @@
             <th>Danh Mục</th>
             <th>Giá Gốc</th>
             <th>Giá Khuyến Mãi</th>
+            <th>Ảnh</th>
             <th>Active</th>
             <th>Update</th>
             <th style="width: 100px">&nbsp;</th>
@@ -22,6 +23,7 @@
                 <td>{{ $product->menu->name }}</td>
                 <td>{{ $product->price }}</td>
                 <td>{{ $product->price_sale }}</td>
+                <td><img src="/thumb/{{ $product->thumb }}" alt="IMG" style="width: 100px"></td>
                 <td>{!! \App\Helpers\Helper::active($product->active) !!}</td>
                 <td>{{ $product->updated_at }}</td>
                 <td>
@@ -29,7 +31,7 @@
                         <i class="fas fa-edit"></i>
                     </a>
                     <a href="#" class="btn btn-danger btn-sm"
-                       onclick="removeRow('{{ $product->id }}', '/admin/products/destroy')">
+                       onclick="removeRow({{ $product->id }}, '/admin/products/destroy')">
                         <i class="fas fa-trash"></i>
                     </a>
                 </td>

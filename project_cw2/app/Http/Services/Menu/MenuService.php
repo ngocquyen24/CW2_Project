@@ -93,6 +93,7 @@ class MenuService
         return Menu::where('id', $id)->where('active', 1)->firstOrFail();
     }
 
+
     public function getProduct($menu, $request)
     {
         $query = $menu->products()

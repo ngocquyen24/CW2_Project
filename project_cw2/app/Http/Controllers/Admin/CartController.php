@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\Controllers\Controller;
+use App\Models\Cart;
 use App\Models\Customer;
 use Illuminate\Http\Request;
 use App\Http\Services\CartService;
+use App\Http\Controllers\Controller;
 
 class CartController extends Controller
 {
@@ -33,4 +34,11 @@ class CartController extends Controller
             'carts' => $carts
         ]);
     }
+
+    // public function destroyCartAdmin($customerId)
+    // {
+    //     Cart::where('customer_id', $customerId)->delete();
+    // }
+
+
 }

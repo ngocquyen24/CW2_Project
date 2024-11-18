@@ -22,7 +22,8 @@ class MenuController extends Controller
         return view('menu', [
             'title' => $menu->name,
             'products' => $products,
-            'menu'  => $menu
+            'menu'  => $menu,
+            
         ]);
     }
 }

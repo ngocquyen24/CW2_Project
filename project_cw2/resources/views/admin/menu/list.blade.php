@@ -6,6 +6,7 @@
             <tr>
                 <th style="width: 50px">ID</th>
                 <th>Name</th>
+                <th>Ảnh</th>
                 <th>Active</th>
                 <th>Update</th>
                 <th style="width: 100px">&nbsp;</th>

@@ -23,7 +23,7 @@
                 <th class="column-5">Total</th>
             </tr>
 
-            @foreach($carts as $key => $cart) 
+            @foreach($carts as $key => $cart)
                 @php
                     $price = $cart->price * $cart->pty;
                     $total += $price;
@@ -31,7 +31,7 @@
                 <tr>
                     <td class="column-1">
                         <div class="how-itemcart1">
-                            <img src="{{ $cart->product->thumb }}" alt="IMG" style="width: 100px">
+                            <img src="/thumb/{{ $cart->product->thumb }}" alt="IMG" style="width: 100px">
                         </div>
                     </td>
                     <td class="column-2">{{ $cart->product->name }}</td>

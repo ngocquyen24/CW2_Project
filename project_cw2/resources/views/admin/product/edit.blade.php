@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-    <form action="" method="POST">
+    <form action="" method="POST" enctype="multipart/form-data" >
         <div class="card-body">
             <div class="row">
                 <div class="col-md-6">
@@ -58,10 +58,10 @@
 
             <div class="form-group">
                 <label for="menu">Ảnh Sản Phẩm</label>
-                <input type="file"  class="form-control" id="upload">
+                <input type="file"  class="form-control" id="upload" name="thumb">
                 <div id="image_show">
-                    <a href="/thumb/{{ $product->thumb }}" target="_blank">
-                        <img src="{{ $product->thumb }}" width="100px">
+                    <a href="{{ $product->thumb }}" target="_blank">
+                        <img src="/thumb/{{ $product->thumb }}" width="100px">
                     </a>
                 </div>
                 <input type="hidden" name="thumb" value="{{ $product->thumb }}" id="thumb">
