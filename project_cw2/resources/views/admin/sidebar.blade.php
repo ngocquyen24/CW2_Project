@@ -14,12 +14,14 @@
                 <i class="fa-solid fa-user"></i>
             </div>
             <div class="info">
+                <img src="/template/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo"
+                class="brand-image img-circle elevation-3" style="opacity: .8">
                 <a href="#" class="d-block">Admin</a>
             </div>
 
 
         </div>
-        
+
         <div class="" style="text-align: center; margin-bottom: 10px; font-size: larger;">
             <a href="{{ route('signout')}}">Log out</a>
         </div>

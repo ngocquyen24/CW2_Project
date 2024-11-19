@@ -15,7 +15,13 @@
         <tbody>
             {!! \App\Helpers\Helper::menu($menus) !!}
         </tbody>
+
     </table>
+    <div class="d-flex justify-content-center">
+        {{ $menus->links() }}
+    </div>
+
+
 @endsection
 
 

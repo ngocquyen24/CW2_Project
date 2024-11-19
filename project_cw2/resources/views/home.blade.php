@@ -89,7 +89,7 @@
                 </div>
             </div>
 
-            
+
             <div id="loadProduct">
                 @include('products.list')
             </div>
