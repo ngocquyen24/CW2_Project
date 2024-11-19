@@ -6,7 +6,6 @@ use App\Http\Controllers\Admin\MainController;
 use App\Http\Controllers\Admin\MenuController;
 use App\Http\Controllers\ProductControllerView;
 use App\Http\Controllers\Admin\SliderController;
-use App\Http\Controllers\ProductControllerView;
 use App\Http\Controllers\SliderControllerView;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Admin\Users\LoginController;
