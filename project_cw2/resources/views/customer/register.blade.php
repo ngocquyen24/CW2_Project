@@ -107,7 +107,7 @@
 
         <div class="row">
           <div class="col-8">
-            <a href="{{ route('login') }}" class="text-center">I already accout </a>
+            <a href="{{ route('login.customer') }}" class="text-center">I already account </a>
           </div>
           <!-- /.col -->
           <div class="col-4">

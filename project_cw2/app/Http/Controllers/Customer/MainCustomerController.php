@@ -41,9 +41,9 @@ class MainCustomerController extends Controller
 
     public function profile()
     {
-        return view('profile', [
+        return view('customer.history.profile', [
             'title' => 'Danh Sách Đơn Đặt Hàng',
-            'customers' => $this->cart->getCustomer()
+            'customers' => $this->cart->getCustomerUser()
         ]);
     }
 }

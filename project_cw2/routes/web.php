@@ -9,8 +9,9 @@ use App\Http\Controllers\Admin\SliderController;
 use App\Http\Controllers\SliderControllerView;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Admin\Users\LoginController;
-use App\Http\Controllers\Customer\LoginCustomerController;
+use App\Http\Controllers\Customer\CustomerCartController;
 use App\Http\Controllers\Customer\MainCustomerController;
+use App\Http\Controllers\Customer\LoginCustomerController;
 
 Route::get('admin/users/login', [LoginController::class, 'index'])->name('login');
 
@@ -105,6 +106,9 @@ Route::middleware(['auth:customer'])->group(function () {
 
         Route::get('/', [MainCustomerController::class, 'index'])->name('customer');
         Route::post('profile', [MainCustomerController::class, 'profile'])->name('profile.customer');
+        Route::get('profile', [MainCustomerController::class, 'profile']);
+
+        Route::get('customers/view/{customer}', [CustomerCartController::class, 'show']);
 
     });
 });

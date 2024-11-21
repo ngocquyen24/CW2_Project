@@ -14,9 +14,10 @@
                 <i class="fa-solid fa-user"></i>
             </div>
             <div class="info">
-                <img src="/template/admin/dist/img/AdminLTELogo.png" alt="AdminLTE Logo"
+                <img src="{{ asset('avatar/' . Auth::user()->avatar) }}" alt="AdminLTE Logo"
                 class="brand-image img-circle elevation-3" style="opacity: .8">
-                <a href="#" class="d-block">Admin</a>
+
+                <a href="#" class="d-block">Admin: {{ Auth::user()->name }}</a>
             </div>
 
 

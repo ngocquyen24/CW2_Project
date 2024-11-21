@@ -1,14 +1,27 @@
 <?php
 
+<<<<<<<< HEAD:project_cw2/app/Http/Controllers/Customer/LoginCustomerController.php
 namespace App\Http\Controllers\Customer;
 use App\Models\CustomerUser;
+========
+namespace App\Http\Controllers\Admin\Users;
+
+use view;
+use App\Models\User;
+use Illuminate\Support\Str;
+>>>>>>>> customer_history_cart:project_cw2/app/Http/Controllers/Admin/Users/LoginController.php
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 
 use Illuminate\Support\Facades\Hash;
+<<<<<<<< HEAD:project_cw2/app/Http/Controllers/Customer/LoginCustomerController.php
 use Illuminate\Support\Facades\Session;
 use Illuminate\Validation\ValidationException;
+========
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Session;
+>>>>>>>> customer_history_cart:project_cw2/app/Http/Controllers/Admin/Users/LoginController.php
 
 class LoginCustomerController extends Controller
 {
@@ -87,5 +100,6 @@ class LoginCustomerController extends Controller
 
         return Redirect('/');
     }
+   
 
 }
