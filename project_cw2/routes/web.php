@@ -87,7 +87,7 @@ Route::post('admin/users/forget-password',[LoginController::class, 'postForgetPa
 Route::get('admin/users/get-password',[LoginController::class, 'getPassword'])->name('getPassword');    // gui link
 Route::get('admin/users/get-password/{customer}/{token}',[LoginController::class, 'postGetPassword']);    // nhap lai mat khau 2 lan
 Route::get('/search-products', [ProductControllerView::class, 'searchProduct'])->name('search.products');
-Route::get('/list', [ProductControllerView::class, 'searchProduct'])->name('list');
+Route::get('/result-search', [ProductControllerView::class, 'searchProduct'])->name('list');
 
 //Customer
 Route::get('customer/login', [LoginCustomerController::class, 'index'])->name('login.customer');

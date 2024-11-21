@@ -42,6 +42,6 @@ class ProductControllerView extends Controller
             $products = Product::all();
         }
 
-        return view('products.list', compact('products'));
+        return view('products.result_search',['title' => 'search','product' => 'product',], compact('products'));
     }
 }
