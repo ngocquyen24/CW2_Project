@@ -4,8 +4,9 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class CustomerUser extends Model
+class CustomerUser extends Authenticatable
 {
     use HasFactory;
     protected $guard = 'customer';

@@ -91,18 +91,21 @@ Route::get('/list', [ProductControllerView::class, 'searchProduct'])->name('list
 
 //Customer
 Route::get('customer/login', [LoginCustomerController::class, 'index'])->name('login.customer');
+Route::post('customer/login/store', [LoginCustomerController::class, 'store']);
 Route::get('customer/register', [LoginCustomerController::class, 'indexRegister'])->name('indexRegister.customer');
 Route::post('customer/register', [LoginCustomerController::class, 'register'])->name('register.customer');
+Route::post('signout', [LoginCustomerController::class, 'signOut'])->name('signout.customer');
 
-Route::middleware(['auth'])->group(function () {
+
+
+
+
+Route::middleware(['auth:customer'])->group(function () {
 
     Route::prefix('customer')->group(function () {
-        Route::get('/', [MainController::class, 'index'])->name('admin');
 
-
+        Route::get('/', [MainCustomerController::class, 'index'])->name('customer');
+        Route::post('profile', [MainCustomerController::class, 'profile'])->name('profile.customer');
 
     });
 });
-
-
-
