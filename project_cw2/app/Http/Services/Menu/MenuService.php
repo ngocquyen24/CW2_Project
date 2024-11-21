@@ -14,7 +14,20 @@ class MenuService
     {
         return Menu::where('parent_id', 0)->get();
     }
-    //rang buoc valida
+
+    public function show()
+    {
+        return Menu::select('name', 'id', 'thumb')
+            ->where('parent_id', 0)
+            ->orderbyDesc('id')
+            ->get();
+    }
+
+    public function getAll()
+    {
+        return Menu::orderbyDesc('id')->paginate(20);
+    }
+
     public function create($request)
     {
         try {
@@ -95,5 +108,20 @@ class MenuService
         return Menu::where('id', $id)->where('active', 1)->firstOrFail();
     }
 
- 
+
+    public function getProduct($menu, $request)
+    {
+        $query = $menu->products()
+            ->select('id', 'name', 'price', 'price_sale', 'thumb')
+            ->where('active', 1);
+
+        if ($request->input('price')) {
+            $query->orderBy('price', $request->input('price'));
+        }
+
+        return $query
+            ->orderByDesc('id')
+            ->paginate(12)
+            ->withQueryString();
+    }
 }

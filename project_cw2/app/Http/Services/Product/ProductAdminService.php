@@ -83,12 +83,30 @@ class ProductAdminService
         if ($isValidPrice === false) return false;
 
         try {
-            $product->fill($request->input());
+            $product->name = (string)$request->input('name');
+            $product->description = (string)$request->input('description');
+            $product->content = (string)$request->input('content');
+            $product->menu_id = (int)$request->input('menu_id');
+
+            $product->price = (int)$request->input('price');
+            $product->price_sale = (int)$request->input('price_sale');
+            $product->active = (string)$request->input('active');
+            if ($request->hasFile('thumb')){
+                $file = $request->file('thumb');
+                $ext = $file->getClientOriginalExtension();
+                $filename= time().'.'.$ext;
+                $file->move('thumb',$filename);
+                $product->thumb = $filename;
+
+            }
+
+
+
             $product->save();
             Session::flash('success', 'Cập nhật thành công');
         } catch (\Exception $err) {
             Session::flash('error', 'Có lỗi vui lòng thử lại');
-            \Log::info($err->getMessage());
+            Log::info($err->getMessage());
             return false;
         }
         return true;

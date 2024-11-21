@@ -58,3 +58,8 @@
     </form>
 @endsection
 
+@section('footer')
+    <script>
+        CKEDITOR.replace('content');
+    </script>
+@endsection
