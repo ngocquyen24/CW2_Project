@@ -14,12 +14,15 @@
                 <i class="fa-solid fa-user"></i>
             </div>
             <div class="info">
-                <a href="#" class="d-block">Admin</a>
+                <img src="{{ asset('avatar/' . Auth::user()->avatar) }}" alt="AdminLTE Logo"
+                class="brand-image img-circle elevation-3" style="opacity: .8">
+
+                <a href="#" class="d-block">Admin: {{ Auth::user()->name }}</a>
             </div>
 
 
         </div>
-        
+
         <div class="" style="text-align: center; margin-bottom: 10px; font-size: larger;">
             <a href="{{ route('signout')}}">Log out</a>
         </div>

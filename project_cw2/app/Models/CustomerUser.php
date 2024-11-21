@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class CustomerUser extends Model
 {
     use HasFactory;
+    protected $guard = 'customer';
     protected $fillable = [
         'name',
         'email',
@@ -15,5 +16,10 @@ class CustomerUser extends Model
         'phone',
         'avatar',
     ];
+
+    public function carts()
+    {
+        return $this->hasMany(Cart::class, 'customer_id', 'id');
+    }
 
 }

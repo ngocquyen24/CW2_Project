@@ -20,24 +20,27 @@ class LoginController extends Controller
         ]);
     }
 
-    public function store(Request $request ) {
-        //dd($request->input());
-
-       $this->validate($request, [
+    public function store(Request $request)
+    {
+        $this->validate($request, [
             'email' => 'required|email:filter',
             'password' => 'required',
+        ], [
+            'email.required' => 'Không được để trống email',
+            'email.email' => 'Email không đúng định dạng',
+            'password.required' => 'Không được để trống mật khẩu',
+        ]);
 
-       ]);
-
-       if(Auth::attempt(['email' => $request->input('email'),
+        if (Auth::attempt([
+            'email' => $request->input('email'),
             'password' => $request->input('password'),
 
-            ], $request->input('remember') )) {
+        ], $request->input('remember'))) {
             return redirect()->route('admin');
-       }
-       Session::flash('error','Email hoac Password khong dung');
+        }
+        Session::flash('error', 'Email hoặc PassWord không đúng');
 
-       return redirect()->back();
+        return redirect()->back();
     }
 
     public function indexRegister(){
@@ -97,6 +100,24 @@ class LoginController extends Controller
 
         return Redirect('/');
     }
+
+    // public function postForgetPass(Request $request){
+    //     $request->validate([
+    //         'email' =>'required|exists:users' // kiem tra email co ton tai trong csdl khong
+    //     ]);
+
+    //     $token = strtoupper(Str::random(10));
+    //     $users = User::where('email', $request->email)->first();
+    //     $users->update(['token' => $token]);
+
+    //     Mail::send('emails.check_email_forget', compact('users'), function($email) use ($users){
+    //         $email->subject('Email - Reset Password ');
+    //         $email->to($users->email,$users->name);
+    //     });
+
+    //     return redirect()->back()->with('Yes', 'Please check email ');
+
+    // }
 
 
 }

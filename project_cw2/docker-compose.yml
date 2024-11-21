@@ -1,7 +1,11 @@
 services:
   app:
     image: 'webdevops/php-nginx:8.2'
+<<<<<<< HEAD
     container_name: project-backend
+=======
+    container_name: cw2-app-backend
+>>>>>>> fulltextsearch
     working_dir: /var/www
     volumes:
       - .:/var/www
@@ -14,12 +18,20 @@ services:
 
   db:
     image: 'mysql:8.0'
+<<<<<<< HEAD
     container_name: project-backend-db
+=======
+    container_name: cw2-backend-db
+>>>>>>> fulltextsearch
     volumes:
       - dbdata:/var/lib/mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
+<<<<<<< HEAD
       MYSQL_DATABASE: project-backend
+=======
+      MYSQL_DATABASE: chicken
+>>>>>>> fulltextsearch
       MYSQL_USER: admin
       MYSQL_PASSWORD: admin
     ports:
@@ -27,7 +39,11 @@ services:
 
   phpmyadmin:
     image: 'phpmyadmin/phpmyadmin'
+<<<<<<< HEAD
     container_name: project-backend-phpmyadmin
+=======
+    container_name: cw2-backend-phpmyadmin
+>>>>>>> fulltextsearch
     environment:
       PMA_HOST: db
       MYSQL_ROOT_PASSWORD: root

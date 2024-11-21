@@ -55,7 +55,7 @@ class LoginCustomerController extends Controller
 
         ]);
 
-        return redirect("/login");
+        return redirect("customer/login");
     }
 
     public function store(Request $request ) {
@@ -67,15 +67,25 @@ class LoginCustomerController extends Controller
 
        ]);
 
-       if(Auth::attempt(['email' => $request->input('email'),
+       if(Auth::guard('customer')->attempt(['email' => $request->input('email'),
             'password' => $request->input('password'),
 
             ], $request->input('remember') )) {
-            return redirect()->route('admin');
+            return redirect()->route('customer');
        }
        Session::flash('error','Email hoac Password khong dung');
 
        return redirect()->back();
+    }
+
+    /**
+     * Sign out
+     */
+    public function signOut() {
+        Session::flush();
+        Auth::logout();
+
+        return Redirect('/');
     }
 
 }

@@ -6,10 +6,12 @@ use App\Http\Controllers\Admin\MainController;
 use App\Http\Controllers\Admin\MenuController;
 use App\Http\Controllers\ProductControllerView;
 use App\Http\Controllers\Admin\SliderController;
+use App\Http\Controllers\SliderControllerView;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Admin\Users\LoginController;
+use App\Http\Controllers\Customer\CustomerCartController;
+use App\Http\Controllers\Customer\MainCustomerController;
 use App\Http\Controllers\Customer\LoginCustomerController;
-
 
 Route::get('admin/users/login', [LoginController::class, 'index'])->name('login');
 

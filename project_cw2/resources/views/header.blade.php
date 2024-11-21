@@ -31,13 +31,56 @@
                     </div>
 
                     <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart"
-                         data-notify="{{ !is_null(\Session::get('carts')) ? count(\Session::get('carts')) : 0 }}">
-                         <i class="zmdi zmdi-shopping-cart"></i>
+                        data-notify="{{ !is_null(\Session::get('carts')) ? count(\Session::get('carts')) : 0 }}">
+                        <i class="zmdi zmdi-shopping-cart"></i>
                     </div>
 
-                    <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 ">
-                        <a href="{{  route('login.customer') }}"><i class="zmdi zmdi-account"></i></a>
-                    </div>
+
+                    <!-- Nếu người dùng đã đăng nhập (customer) -->
+                    @if (Auth::guard('customer')->check())
+                        <li class="nav-item dropdown">
+                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="" role="button"
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                                {{ Auth::guard('customer')->user()->name }}
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                 <!-- Logout -->
+                                <a class="dropdown-item" href="{{ route('signout.customer') }}"
+                                    onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                    {{ __('Logout') }}
+                                </a>
+                                <form id="logout-form" action="{{ route('signout.customer') }}" method="POST" class="d-none">
+                                    @csrf
+                                </form>
+
+
+                                 <!-- Profile -->
+                                <a class="dropdown-item" href="{{ route('profile.customer') }}"
+                                onclick="event.preventDefault();
+                                                 document.getElementById('profile-form').submit();">
+                                {{ __('Profile') }}
+                            </a>
+                            <form id="profile-form" action="{{ route('profile.customer') }}" method="POST" class="d-none">
+                                @csrf
+                            </form>
+
+
+
+
+
+
+                            </div>
+                        </li>
+
+                    @else
+                        <!-- Nếu người dùng chưa đăng nhập, hiển thị form login -->
+                        <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 ">
+                            <a href="{{ route('login.customer') }}"><i class="zmdi zmdi-account"></i></a>
+                        </div>
+                    @endif
+
 
 
                 </div>
@@ -58,16 +101,17 @@
                 <i class="zmdi zmdi-search"></i>
             </div>
 
-            <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart" data-notify="2">
+            <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart"
+                data-notify="2">
                 <i class="zmdi zmdi-shopping-cart"></i>
             </div>
         </div>
 
         <!-- Button show menu -->
         <div class="btn-show-menu-mobile hamburger hamburger--squeeze">
-				<span class="hamburger-box">
-					<span class="hamburger-inner"></span>
-				</span>
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
         </div>
     </div>
 

@@ -40,7 +40,7 @@
         </tbody>
     </table>
 
-    <div class="card-footer clearfix">
+    <div class="d-flex justify-content-center">
         {!! $products->links() !!}
     </div>
 @endsection
