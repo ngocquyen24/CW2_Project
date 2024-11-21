@@ -4,12 +4,13 @@
 namespace App\Http\Services;
 
 
-use App\Jobs\SendMail;
 use App\Models\Cart;
-use App\Models\Customer;
+use App\Jobs\SendMail;
 use App\Models\Product;
+use App\Models\Customer;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Session;
 
 class CartService
@@ -132,7 +133,22 @@ class CartService
 
     public function getCustomer()
     {
-        return Customer::orderByDesc('id')->paginate(15);
+        return Customer::orderByDesc('id')->paginate(3);
+    }
+
+    public function getCustomerUser()
+    {
+        // Lấy email của người dùng đang đăng nhập
+        $email = Auth::guard('customer')->user()->email;
+
+    // Lấy danh sách theo email từ cơ sở dữ liệu
+    $records = DB::table('customers') // Thay 'your_table_name' bằng tên bảng của bạn
+                 ->where('email', $email)
+                 ->paginate(2); // Hiển thị 2 bản ghi mỗi trang
+
+    // Trả về danh sách
+    return $records;
+
     }
 
     public function getProductForCart($customer)

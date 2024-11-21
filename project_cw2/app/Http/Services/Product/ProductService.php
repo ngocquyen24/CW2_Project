@@ -2,6 +2,7 @@
 
 
 namespace App\Http\Services\Product;
+use Illuminate\Support\Facades\Session;
 
 
 use App\Models\Product;
@@ -38,4 +39,6 @@ class ProductService
             ->limit(8)
             ->get();
     }
+
+  
 }

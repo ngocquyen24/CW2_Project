@@ -20,7 +20,7 @@
                 <td>{{ $slider->name }}</td>
                 <td>{{ $slider->url }}</td>
                 <td><a href="{{ $slider->thumb }}" target="_blank">
-                        <img src="{{ $slider->thumb }}" height="40px">
+                        <img src="/thumb/{{ $slider->thumb }}" height="40px">
                     </a>
                 </td>
                 <td>{!! \App\Helpers\Helper::active($slider->active) !!}</td>
@@ -30,7 +30,7 @@
                         <i class="fas fa-edit"></i>
                     </a>
                     <a href="#" class="btn btn-danger btn-sm"
-                       onclick="removeRow('{{ $slider->id }}', '/admin/sliders/destroy')">
+                       onclick="removeRow({{ $slider->id }}, '/admin/sliders/destroy')">
                         <i class="fas fa-trash"></i>
                     </a>
                 </td>
