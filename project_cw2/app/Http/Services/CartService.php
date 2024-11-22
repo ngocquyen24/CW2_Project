@@ -77,33 +77,46 @@ class CartService
     public function addCart($request)
     {
         try {
+            // Kiểm tra người dùng đã đăng nhập với guard 'customer'
+            if (!Auth::guard('customer')->check()) {
+                Session::flash('error', 'Bạn cần đăng nhập để đặt hàng.');
+                return redirect()->route('login.customer'); // Chuyển hướng về trang đăng nhập
+            }
+
+            // Lấy email của người dùng hiện đang đăng nhập với guard 'customer'
+            $email = Auth::guard('customer')->user()->email;
+
             DB::beginTransaction();
 
             $carts = Session::get('carts');
 
-            if (is_null($carts))
+            if (is_null($carts)) {
+                Session::flash('error', 'Giỏ hàng rỗng.');
                 return false;
+            }
 
+            // Tạo thông tin khách hàng
             $customer = Customer::create([
                 'name' => $request->input('name'),
                 'phone' => $request->input('phone'),
                 'address' => $request->input('address'),
-                'email' => $request->input('email'),
+                'email' => $email, // Sử dụng email của người dùng đã đăng nhập
                 'content' => $request->input('content')
             ]);
 
             $this->infoProductCart($carts, $customer->id);
 
             DB::commit();
-            Session::flash('success', 'Đặt Hàng Thành Công');
+            Session::flash('success', 'Đặt hàng thành công');
 
-            #Queue
-            SendMail::dispatch($request->input('email'))->delay(now()->addSeconds(2));
+            // Gửi email xác nhận đơn hàng
+            SendMail::dispatch($email)->delay(now()->addSeconds(2));
 
+            // Xóa giỏ hàng khỏi Session
             Session::forget('carts');
         } catch (\Exception $err) {
             DB::rollBack();
-            Session::flash('error', 'Đặt Hàng Lỗi, Vui lòng thử lại sau');
+            Session::flash('error', 'Đặt hàng lỗi, vui lòng thử lại sau.');
             return false;
         }
 

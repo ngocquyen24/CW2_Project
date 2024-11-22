@@ -36,6 +36,7 @@
                     </div>
 
 
+
                     <!-- Nếu người dùng đã đăng nhập (customer) -->
                     @if (Auth::guard('customer')->check())
                         <li class="nav-item dropdown">

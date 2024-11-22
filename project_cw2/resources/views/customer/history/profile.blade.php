@@ -4,7 +4,7 @@
     <table class="table">
         <thead>
         <tr>
-            <th style="width: 50px">ID</th>
+      
             <th>Tên Khách Hàng</th>
             <th>Số Điện Thoại</th>
             <th>Email</th>
@@ -15,7 +15,7 @@
         <tbody>
         @foreach($customers as $key => $customer)
             <tr>
-                <td>{{ $customer->id }}</td>
+
                 <td>{{ $customer->name }}</td>
                 <td>{{ $customer->phone }}</td>
                 <td>{{ $customer->email }}</td>

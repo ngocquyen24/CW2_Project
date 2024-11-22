@@ -119,9 +119,9 @@
                                             <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="address" placeholder="Địa Chỉ Giao Hàng">
                                         </div>
 
-                                        <div class="bor8 bg0 m-b-12">
+                                        {{-- <div class="bor8 bg0 m-b-12">
                                             <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="email" placeholder="Email Liên Hệ">
-                                        </div>
+                                        </div> --}}
 
                                         <div class="bor8 bg0 m-b-12">
                                             <textarea class="cl8 plh3 size-111 p-lr-15" name="content"></textarea>

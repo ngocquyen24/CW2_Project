@@ -106,6 +106,9 @@ Route::middleware(['auth:customer'])->group(function () {
 
         Route::get('/', [MainCustomerController::class, 'index'])->name('customer');
         Route::post('profile', [MainCustomerController::class, 'profile'])->name('profile.customer');
+        Route::get('profile', [MainCustomerController::class, 'profile']);
+
+        Route::get('customers/view/{customer}', [CustomerCartController::class, 'show']);
 
     });
 });
