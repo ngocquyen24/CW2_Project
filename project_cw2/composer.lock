@@ -194,6 +194,9 @@
         {
             "name": "dflydev/dot-access-data",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
             "version": "v3.0.2",
             "source": {
                 "type": "git",
@@ -204,6 +207,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/dflydev/dflydev-dot-access-data/zipball/f41715465d65213d644d3141a6a93081be5d3549",
                 "reference": "f41715465d65213d644d3141a6a93081be5d3549",
+<<<<<<< HEAD
 =======
             "version": "v3.0.3",
             "source": {
@@ -216,6 +220,8 @@
                 "url": "https://api.github.com/repos/dflydev/dflydev-dot-access-data/zipball/a23a2bf4f31d3518f3ecb38660c95715dfead60f",
                 "reference": "a23a2bf4f31d3518f3ecb38660c95715dfead60f",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -281,6 +287,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.3"
             },
             "time": "2024-07-08T12:26:09+00:00"
@@ -314,6 +321,11 @@
             },
             "time": "2024-07-08T12:26:09+00:00"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/dflydev/dflydev-dot-access-data/tree/v3.0.2"
+            },
+            "time": "2022-10-27T11:44:00+00:00"
+>>>>>>> id_encryption
         },
         {
             "name": "doctrine/inflector",
@@ -489,6 +501,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> sendMaill
             "version": "v3.4.0",
@@ -509,6 +522,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "version": "v3.3.3",
             "source": {
                 "type": "git",
@@ -522,6 +537,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> fulltextsearch
 =======
 >>>>>>> customer_login_logout
@@ -531,6 +547,8 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -543,6 +561,7 @@
             "require-dev": {
                 "phpstan/extension-installer": "^1.0",
                 "phpstan/phpstan": "^1.0",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -566,10 +585,13 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
                 "phpstan/phpstan-webmozart-assert": "^1.0",
                 "phpunit/phpunit": "^7.0|^8.0|^9.0"
             },
             "type": "library",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -582,6 +604,8 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
             "autoload": {
                 "psr-4": {
                     "Cron\\": "src/Cron/"
@@ -610,6 +634,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/dragonmantank/cron-expression/tree/v3.4.0"
 =======
                 "source": "https://github.com/dragonmantank/cron-expression/tree/v3.3.3"
@@ -626,6 +651,9 @@
 =======
                 "source": "https://github.com/dragonmantank/cron-expression/tree/v3.4.0"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/dragonmantank/cron-expression/tree/v3.3.3"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -638,6 +666,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-10-09T13:47:03+00:00"
 =======
             "time": "2023-08-10T19:36:49+00:00"
@@ -654,6 +683,9 @@
 =======
             "time": "2024-10-09T13:47:03+00:00"
 >>>>>>> sendMaill
+=======
+            "time": "2023-08-10T19:36:49+00:00"
+>>>>>>> id_encryption
         },
         {
             "name": "egulias/email-validator",
@@ -864,6 +896,9 @@
         {
             "name": "graham-campbell/result-type",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
             "version": "v1.1.2",
             "source": {
                 "type": "git",
@@ -874,6 +909,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/fbd48bce38f73f8a4ec8583362e732e4095e5862",
                 "reference": "fbd48bce38f73f8a4ec8583362e732e4095e5862",
+<<<<<<< HEAD
 =======
             "version": "v1.1.3",
             "source": {
@@ -886,21 +922,29 @@
                 "url": "https://api.github.com/repos/GrahamCampbell/Result-Type/zipball/3ba905c11371512af9d9bdd27d99b782216b6945",
                 "reference": "3ba905c11371512af9d9bdd27d99b782216b6945",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
                 "php": "^7.2.5 || ^8.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
                 "phpoption/phpoption": "^1.9.2"
             },
             "require-dev": {
                 "phpunit/phpunit": "^8.5.34 || ^9.6.13 || ^10.4.2"
+<<<<<<< HEAD
 =======
                 "phpoption/phpoption": "^1.9.3"
             },
             "require-dev": {
                 "phpunit/phpunit": "^8.5.39 || ^9.6.20 || ^10.5.28"
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
             },
             "type": "library",
             "autoload": {
@@ -930,10 +974,14 @@
             "support": {
                 "issues": "https://github.com/GrahamCampbell/Result-Type/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.1.2"
 =======
                 "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.1.3"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/GrahamCampbell/Result-Type/tree/v1.1.2"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -946,6 +994,9 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
             "time": "2023-11-12T22:16:48+00:00"
         },
         {
@@ -960,6 +1011,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/guzzle/guzzle/zipball/41042bc7ab002487b876a0683fc8dce04ddce104",
                 "reference": "41042bc7ab002487b876a0683fc8dce04ddce104",
+<<<<<<< HEAD
 =======
             "time": "2024-07-20T21:45:45+00:00"
         },
@@ -976,10 +1028,13 @@
                 "url": "https://api.github.com/repos/guzzle/guzzle/zipball/d281ed313b989f213357e3be1a179f02196ac99b",
                 "reference": "d281ed313b989f213357e3be1a179f02196ac99b",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
+<<<<<<< HEAD
 <<<<<<< HEAD
                 "guzzlehttp/promises": "^1.5.3 || ^2.0.1",
                 "guzzlehttp/psr7": "^1.9.1 || ^2.5.1",
@@ -987,6 +1042,10 @@
                 "guzzlehttp/promises": "^1.5.3 || ^2.0.3",
                 "guzzlehttp/psr7": "^2.7.0",
 >>>>>>> sendMaill
+=======
+                "guzzlehttp/promises": "^1.5.3 || ^2.0.1",
+                "guzzlehttp/psr7": "^1.9.1 || ^2.5.1",
+>>>>>>> id_encryption
                 "php": "^7.2.5 || ^8.0",
                 "psr/http-client": "^1.0",
                 "symfony/deprecation-contracts": "^2.2 || ^3.0"
@@ -998,6 +1057,7 @@
                 "bamarni/composer-bin-plugin": "^1.8.2",
                 "ext-curl": "*",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "php-http/client-integration-tests": "dev-master#2c025848417c1135031fdf9c728ee53d0a7ceaee as 3.0.999",
                 "php-http/message-factory": "^1.1",
                 "phpunit/phpunit": "^8.5.36 || ^9.6.15",
@@ -1006,6 +1066,11 @@
                 "php-http/message-factory": "^1.1",
                 "phpunit/phpunit": "^8.5.39 || ^9.6.20",
 >>>>>>> sendMaill
+=======
+                "php-http/client-integration-tests": "dev-master#2c025848417c1135031fdf9c728ee53d0a7ceaee as 3.0.999",
+                "php-http/message-factory": "^1.1",
+                "phpunit/phpunit": "^8.5.36 || ^9.6.15",
+>>>>>>> id_encryption
                 "psr/log": "^1.1 || ^2.0 || ^3.0"
             },
             "suggest": {
@@ -1089,6 +1154,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/guzzle/guzzle/tree/7.9.2"
 =======
                 "source": "https://github.com/guzzle/guzzle/tree/7.8.1"
@@ -1108,6 +1174,9 @@
 =======
                 "source": "https://github.com/guzzle/guzzle/tree/7.9.2"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/guzzle/guzzle/tree/7.8.1"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -1124,6 +1193,9 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
             "time": "2023-12-03T20:35:24+00:00"
         },
         {
@@ -1138,6 +1210,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/guzzle/promises/zipball/bbff78d96034045e58e13dedd6ad91b5d1253223",
                 "reference": "bbff78d96034045e58e13dedd6ad91b5d1253223",
+<<<<<<< HEAD
 =======
             "time": "2024-07-24T11:22:20+00:00"
         },
@@ -1154,6 +1227,8 @@
                 "url": "https://api.github.com/repos/guzzle/promises/zipball/f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
                 "reference": "f9c436286ab2892c7db7be8c8da4ef61ccf7b455",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -1162,10 +1237,14 @@
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.8.2",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "phpunit/phpunit": "^8.5.36 || ^9.6.15"
 =======
                 "phpunit/phpunit": "^8.5.39 || ^9.6.20"
 >>>>>>> sendMaill
+=======
+                "phpunit/phpunit": "^8.5.36 || ^9.6.15"
+>>>>>>> id_encryption
             },
             "type": "library",
             "extra": {
@@ -1212,10 +1291,14 @@
             "support": {
                 "issues": "https://github.com/guzzle/promises/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/guzzle/promises/tree/2.0.2"
 =======
                 "source": "https://github.com/guzzle/promises/tree/2.0.4"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/guzzle/promises/tree/2.0.2"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -1232,6 +1315,9 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
             "time": "2023-12-03T20:19:20+00:00"
         },
         {
@@ -1246,6 +1332,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/guzzle/psr7/zipball/45b30f99ac27b5ca93cb4831afe16285f57b8221",
                 "reference": "45b30f99ac27b5ca93cb4831afe16285f57b8221",
+<<<<<<< HEAD
 =======
             "time": "2024-10-17T10:06:22+00:00"
         },
@@ -1262,6 +1349,8 @@
                 "url": "https://api.github.com/repos/guzzle/psr7/zipball/a70f5c95fb43bc83f07c9c948baa0dc1829bf201",
                 "reference": "a70f5c95fb43bc83f07c9c948baa0dc1829bf201",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -1277,12 +1366,17 @@
             "require-dev": {
                 "bamarni/composer-bin-plugin": "^1.8.2",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "http-interop/http-factory-tests": "^0.9",
                 "phpunit/phpunit": "^8.5.36 || ^9.6.15"
 =======
                 "http-interop/http-factory-tests": "0.9.0",
                 "phpunit/phpunit": "^8.5.39 || ^9.6.20"
 >>>>>>> sendMaill
+=======
+                "http-interop/http-factory-tests": "^0.9",
+                "phpunit/phpunit": "^8.5.36 || ^9.6.15"
+>>>>>>> id_encryption
             },
             "suggest": {
                 "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
@@ -1354,10 +1448,14 @@
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/guzzle/psr7/tree/2.6.2"
 =======
                 "source": "https://github.com/guzzle/psr7/tree/2.7.0"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/guzzle/psr7/tree/2.6.2"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -1374,6 +1472,9 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
             "time": "2023-12-03T20:05:35+00:00"
         },
         {
@@ -1388,6 +1489,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/e1afe088b4ca613fb96dc57e6d8dbcb8cc2c6b49",
                 "reference": "e1afe088b4ca613fb96dc57e6d8dbcb8cc2c6b49",
+<<<<<<< HEAD
 =======
             "time": "2024-07-18T11:15:46+00:00"
         },
@@ -1404,6 +1506,8 @@
                 "url": "https://api.github.com/repos/laravel/framework/zipball/d841a226a50c715431952a10260ba4fac9e91cc4",
                 "reference": "d841a226a50c715431952a10260ba4fac9e91cc4",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -1564,6 +1668,9 @@
                 "source": "https://github.com/laravel/framework"
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
             "time": "2022-12-08T15:28:55+00:00"
         },
         {
@@ -1578,6 +1685,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/3dbf8a8e914634c48d389c1234552666b3d43754",
                 "reference": "3dbf8a8e914634c48d389c1234552666b3d43754",
+<<<<<<< HEAD
 =======
             "time": "2024-11-20T15:55:41+00:00"
         },
@@ -1594,6 +1702,8 @@
                 "url": "https://api.github.com/repos/laravel/serializable-closure/zipball/4f48ade902b94323ca3be7646db16209ec76be3d",
                 "reference": "4f48ade902b94323ca3be7646db16209ec76be3d",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -1601,10 +1711,14 @@
             },
             "require-dev": {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
                 "nesbot/carbon": "^2.61",
                 "pestphp/pest": "^1.21.3",
                 "phpstan/phpstan": "^1.8.2",
                 "symfony/var-dumper": "^5.4.11"
+<<<<<<< HEAD
 =======
                 "illuminate/support": "^8.0|^9.0|^10.0|^11.0",
                 "nesbot/carbon": "^2.61|^3.0",
@@ -1612,6 +1726,8 @@
                 "phpstan/phpstan": "^1.8.2",
                 "symfony/var-dumper": "^5.4.11|^6.2.0|^7.0.0"
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
             },
             "type": "library",
             "extra": {
@@ -1649,6 +1765,9 @@
                 "source": "https://github.com/laravel/serializable-closure"
             },
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
             "time": "2023-11-08T14:08:06+00:00"
         },
         {
@@ -1663,6 +1782,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/tinker/zipball/502e0fe3f0415d06d5db1f83a472f0f3b754bafe",
                 "reference": "502e0fe3f0415d06d5db1f83a472f0f3b754bafe",
+<<<<<<< HEAD
 =======
             "time": "2024-11-14T18:34:49+00:00"
         },
@@ -1679,6 +1799,8 @@
                 "url": "https://api.github.com/repos/laravel/tinker/zipball/ba4d51eb56de7711b3a37d63aa0643e99a339ae5",
                 "reference": "ba4d51eb56de7711b3a37d63aa0643e99a339ae5",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -1735,6 +1857,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> sendMaill
                 "source": "https://github.com/laravel/tinker/tree/v2.10.0"
@@ -1763,13 +1886,18 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
                 "source": "https://github.com/laravel/tinker/tree/v2.9.0"
             },
             "time": "2024-01-04T16:10:04+00:00"
         },
         {
+<<<<<<< HEAD
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
             "name": "laravel/ui",
             "version": "v3.4.6",
             "source": {
@@ -1833,6 +1961,9 @@
         {
             "name": "league/commonmark",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
             "version": "2.4.2",
             "source": {
                 "type": "git",
@@ -1843,6 +1974,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/91c24291965bd6d7c46c46a12ba7492f83b1cadf",
                 "reference": "91c24291965bd6d7c46c46a12ba7492f83b1cadf",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1868,6 +2000,8 @@
                 "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/b650144166dfa7703e62a22e493b853b58d874b0",
                 "reference": "b650144166dfa7703e62a22e493b853b58d874b0",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -1881,12 +2015,17 @@
             "require-dev": {
                 "cebe/markdown": "^1.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "commonmark/cmark": "0.30.3",
                 "commonmark/commonmark.js": "0.30.0",
 =======
                 "commonmark/cmark": "0.31.1",
                 "commonmark/commonmark.js": "0.31.1",
 >>>>>>> sendMaill
+=======
+                "commonmark/cmark": "0.30.3",
+                "commonmark/commonmark.js": "0.30.0",
+>>>>>>> id_encryption
                 "composer/package-versions-deprecated": "^1.8",
                 "embed/embed": "^4.4",
                 "erusev/parsedown": "^1.0",
@@ -1909,10 +2048,14 @@
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "2.5-dev"
 =======
                     "dev-main": "2.6-dev"
 >>>>>>> sendMaill
+=======
+                    "dev-main": "2.5-dev"
+>>>>>>> id_encryption
                 }
             },
             "autoload": {
@@ -1970,10 +2113,14 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-02-02T11:59:32+00:00"
 =======
             "time": "2024-08-16T11:46:16+00:00"
 >>>>>>> sendMaill
+=======
+            "time": "2024-02-02T11:59:32+00:00"
+>>>>>>> id_encryption
         },
         {
             "name": "league/config",
@@ -2154,6 +2301,9 @@
         {
             "name": "league/mime-type-detection",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
             "version": "1.15.0",
             "source": {
                 "type": "git",
@@ -2164,6 +2314,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/ce0f4d1e8a6f4eb0ddff33f57c69c50fd09f4301",
                 "reference": "ce0f4d1e8a6f4eb0ddff33f57c69c50fd09f4301",
+<<<<<<< HEAD
 =======
             "version": "1.16.0",
             "source": {
@@ -2176,6 +2327,8 @@
                 "url": "https://api.github.com/repos/thephpleague/mime-type-detection/zipball/2d6702ff215bf922936ccc1ad31007edc76451b9",
                 "reference": "2d6702ff215bf922936ccc1ad31007edc76451b9",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -2207,10 +2360,14 @@
             "support": {
                 "issues": "https://github.com/thephpleague/mime-type-detection/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/thephpleague/mime-type-detection/tree/1.15.0"
 =======
                 "source": "https://github.com/thephpleague/mime-type-detection/tree/1.16.0"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/thephpleague/mime-type-detection/tree/1.15.0"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -2223,6 +2380,9 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
             "time": "2024-01-28T23:22:08+00:00"
         },
         {
@@ -2237,6 +2397,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/Seldaek/monolog/zipball/a30bfe2e142720dfa990d0a7e573997f5d884215",
                 "reference": "a30bfe2e142720dfa990d0a7e573997f5d884215",
+<<<<<<< HEAD
 =======
             "time": "2024-09-21T08:32:55+00:00"
         },
@@ -2253,6 +2414,8 @@
                 "url": "https://api.github.com/repos/Seldaek/monolog/zipball/5cf826f2991858b54d5c3809bee745560a1042a7",
                 "reference": "5cf826f2991858b54d5c3809bee745560a1042a7",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -2330,10 +2493,14 @@
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/Seldaek/monolog/tree/2.9.3"
 =======
                 "source": "https://github.com/Seldaek/monolog/tree/2.10.0"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/Seldaek/monolog/tree/2.9.3"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -2346,6 +2513,9 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
             "time": "2024-04-12T20:52:51+00:00"
         },
         {
@@ -2360,6 +2530,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/0c6fd108360c562f6e4fd1dedb8233b423e91c83",
                 "reference": "0c6fd108360c562f6e4fd1dedb8233b423e91c83",
+<<<<<<< HEAD
 =======
             "time": "2024-11-12T12:43:37+00:00"
         },
@@ -2376,6 +2547,8 @@
                 "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/afd46589c216118ecd48ff2b95d77596af1e57ed",
                 "reference": "afd46589c216118ecd48ff2b95d77596af1e57ed",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -2410,12 +2583,17 @@
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-3.x": "3.x-dev",
                     "dev-master": "2.x-dev"
 =======
                     "dev-master": "3.x-dev",
                     "dev-2.x": "2.x-dev"
 >>>>>>> sendMaill
+=======
+                    "dev-3.x": "3.x-dev",
+                    "dev-master": "2.x-dev"
+>>>>>>> id_encryption
                 },
                 "laravel": {
                     "providers": [
@@ -2475,6 +2653,9 @@
                 }
             ],
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
             "time": "2024-01-25T10:35:09+00:00"
         },
         {
@@ -2489,6 +2670,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nette/schema/zipball/a6d3a6d1f545f01ef38e60f375d1cf1f4de98188",
                 "reference": "a6d3a6d1f545f01ef38e60f375d1cf1f4de98188",
+<<<<<<< HEAD
 =======
             "time": "2024-06-03T19:18:41+00:00"
         },
@@ -2505,21 +2687,29 @@
                 "url": "https://api.github.com/repos/nette/schema/zipball/da801d52f0354f70a638673c4a0f04e16529431d",
                 "reference": "da801d52f0354f70a638673c4a0f04e16529431d",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "^4.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
                 "php": "8.1 - 8.3"
             },
             "require-dev": {
                 "nette/tester": "^2.4",
+<<<<<<< HEAD
 =======
                 "php": "8.1 - 8.4"
             },
             "require-dev": {
                 "nette/tester": "^2.5.2",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "phpstan/phpstan-nette": "^1.0",
                 "tracy/tracy": "^2.8"
             },
@@ -2559,6 +2749,9 @@
             "support": {
                 "issues": "https://github.com/nette/schema/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
                 "source": "https://github.com/nette/schema/tree/v1.3.0"
             },
             "time": "2023-12-11T11:54:22+00:00"
@@ -2579,6 +2772,7 @@
             },
             "require": {
                 "php": ">=8.0 <8.4"
+<<<<<<< HEAD
 =======
                 "source": "https://github.com/nette/schema/tree/v1.3.2"
             },
@@ -2601,6 +2795,8 @@
             "require": {
                 "php": "8.0 - 8.4"
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
             },
             "conflict": {
                 "nette/finder": "<3",
@@ -2668,6 +2864,9 @@
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
                 "source": "https://github.com/nette/utils/tree/v4.0.4"
             },
             "time": "2024-01-17T16:50:36+00:00"
@@ -2684,6 +2883,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/139676794dc1e9231bf7bcd123cfc0c99182cb13",
                 "reference": "139676794dc1e9231bf7bcd123cfc0c99182cb13",
+<<<<<<< HEAD
 =======
                 "source": "https://github.com/nette/utils/tree/v4.0.5"
             },
@@ -2702,6 +2902,8 @@
                 "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8eea230464783aa9671db8eea6f8c6ac5285794b",
                 "reference": "8eea230464783aa9671db8eea6f8c6ac5285794b",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -2712,6 +2914,7 @@
             },
             "require-dev": {
                 "ircmaxell/php-yacc": "^0.0.7",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2737,6 +2940,9 @@
 =======
                 "phpunit/phpunit": "^9.0"
 >>>>>>> sendMaill
+=======
+                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0"
+>>>>>>> id_encryption
             },
             "bin": [
                 "bin/php-parse"
@@ -2774,6 +2980,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/nikic/PHP-Parser/tree/v5.3.1"
             },
             "time": "2024-10-08T18:51:32+00:00"
@@ -2807,6 +3014,11 @@
             },
             "time": "2024-10-08T18:51:32+00:00"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.0.2"
+            },
+            "time": "2024-03-05T20:51:40+00:00"
+>>>>>>> id_encryption
         },
         {
             "name": "opis/closure",
@@ -2881,6 +3093,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> sendMaill
             "version": "1.9.3",
@@ -2903,6 +3116,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "version": "1.9.2",
             "source": {
                 "type": "git",
@@ -2917,6 +3132,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> customer_register
 =======
 >>>>>>> fulltextsearch
@@ -2928,6 +3144,8 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -2941,6 +3159,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "phpunit/phpunit": "^8.5.39 || ^9.6.20 || ^10.5.28"
 =======
                 "phpunit/phpunit": "^8.5.34 || ^9.6.13 || ^10.4.2"
@@ -2960,6 +3179,9 @@
 =======
                 "phpunit/phpunit": "^8.5.39 || ^9.6.20 || ^10.5.28"
 >>>>>>> sendMaill
+=======
+                "phpunit/phpunit": "^8.5.34 || ^9.6.13 || ^10.4.2"
+>>>>>>> id_encryption
             },
             "type": "library",
             "extra": {
@@ -2971,6 +3193,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "forward-command": false
 =======
                     "forward-command": true
@@ -2990,6 +3213,9 @@
 =======
                     "forward-command": false
 >>>>>>> sendMaill
+=======
+                    "forward-command": true
+>>>>>>> id_encryption
                 },
                 "branch-alias": {
                     "dev-master": "1.9-dev"
@@ -3031,6 +3257,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/schmittjoh/php-option/tree/1.9.3"
 =======
                 "source": "https://github.com/schmittjoh/php-option/tree/1.9.2"
@@ -3050,6 +3277,9 @@
 =======
                 "source": "https://github.com/schmittjoh/php-option/tree/1.9.3"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/schmittjoh/php-option/tree/1.9.2"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -3067,6 +3297,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-07-20T21:41:07+00:00"
 =======
             "time": "2023-11-12T21:59:55+00:00"
@@ -3086,6 +3317,9 @@
 =======
             "time": "2024-07-20T21:41:07+00:00"
 >>>>>>> sendMaill
+=======
+            "time": "2023-11-12T21:59:55+00:00"
+>>>>>>> id_encryption
         },
         {
             "name": "psr/clock",
@@ -3502,6 +3736,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> sendMaill
             "version": "v0.12.4",
@@ -3524,6 +3759,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "version": "v0.12.3",
             "source": {
                 "type": "git",
@@ -3534,6 +3771,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/bobthecow/psysh/zipball/b6b6cce7d3ee8fbf31843edce5e8f5a72eff4a73",
                 "reference": "b6b6cce7d3ee8fbf31843edce5e8f5a72eff4a73",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3549,6 +3787,8 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -3618,6 +3858,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/bobthecow/psysh/tree/v0.12.4"
             },
             "time": "2024-06-10T01:18:23+00:00"
@@ -3651,6 +3892,11 @@
             },
             "time": "2024-06-10T01:18:23+00:00"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/bobthecow/psysh/tree/v0.12.3"
+            },
+            "time": "2024-04-02T15:57:53+00:00"
+>>>>>>> id_encryption
         },
         {
             "name": "ralouphie/getallheaders",
@@ -3961,6 +4207,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v5.4.44",
             "source": {
                 "type": "git",
@@ -3980,6 +4227,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "version": "v5.4.39",
             "source": {
                 "type": "git",
@@ -3990,6 +4239,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/console/zipball/f3e591c48688a0cfa1a3296205926c05e84b22b1",
                 "reference": "f3e591c48688a0cfa1a3296205926c05e84b22b1",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4015,6 +4265,8 @@
                 "url": "https://api.github.com/repos/symfony/console/zipball/c4ba980ca61a9eb18ee6bcc73f28e475852bb1ed",
                 "reference": "c4ba980ca61a9eb18ee6bcc73f28e475852bb1ed",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -4090,6 +4342,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/console/tree/v5.4.44"
 =======
                 "source": "https://github.com/symfony/console/tree/v5.4.39"
@@ -4109,6 +4362,9 @@
 =======
                 "source": "https://github.com/symfony/console/tree/v5.4.47"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/console/tree/v5.4.39"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -4124,6 +4380,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4153,6 +4410,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "time": "2024-04-18T08:26:06+00:00"
         },
         {
@@ -4167,6 +4426,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/css-selector/zipball/b08a4ad89e84b29cec285b7b1f781a7ae51cf4bc",
                 "reference": "b08a4ad89e84b29cec285b7b1f781a7ae51cf4bc",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4196,6 +4456,8 @@
                 "url": "https://api.github.com/repos/symfony/css-selector/zipball/4aa4f6b3d6749c14d3aa815eef8226632e7bbc66",
                 "reference": "4aa4f6b3d6749c14d3aa815eef8226632e7bbc66",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -4237,6 +4499,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/css-selector/tree/v7.1.1"
 =======
                 "source": "https://github.com/symfony/css-selector/tree/v7.0.7"
@@ -4256,6 +4519,9 @@
 =======
                 "source": "https://github.com/symfony/css-selector/tree/v7.1.6"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/css-selector/tree/v7.0.7"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -4271,6 +4537,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4296,6 +4563,9 @@
 =======
             "time": "2024-09-25T14:20:29+00:00"
 >>>>>>> sendMaill
+=======
+            "time": "2024-04-18T09:29:19+00:00"
+>>>>>>> id_encryption
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -4372,6 +4642,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v5.4.42",
             "source": {
                 "type": "git",
@@ -4391,6 +4662,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "version": "v5.4.39",
             "source": {
                 "type": "git",
@@ -4401,6 +4674,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/error-handler/zipball/9e02a6e831d6c2dbc5f96c8ff5314d453ecd53cd",
                 "reference": "9e02a6e831d6c2dbc5f96c8ff5314d453ecd53cd",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4426,6 +4700,8 @@
                 "url": "https://api.github.com/repos/symfony/error-handler/zipball/d19ede7a2cafb386be9486c580649d0f9e3d0363",
                 "reference": "d19ede7a2cafb386be9486c580649d0f9e3d0363",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -4473,6 +4749,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/error-handler/tree/v5.4.42"
 =======
                 "source": "https://github.com/symfony/error-handler/tree/v5.4.39"
@@ -4492,6 +4769,9 @@
 =======
                 "source": "https://github.com/symfony/error-handler/tree/v5.4.46"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/error-handler/tree/v5.4.39"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -4507,6 +4787,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4536,6 +4817,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "time": "2024-04-18T08:26:06+00:00"
         },
         {
@@ -4550,6 +4833,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/d84384f3f67de3cb650db64d685d70395dacfc3f",
                 "reference": "d84384f3f67de3cb650db64d685d70395dacfc3f",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4579,6 +4863,8 @@
                 "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/0ffc48080ab3e9132ea74ef4e09d8dcf26bf897e",
                 "reference": "0ffc48080ab3e9132ea74ef4e09d8dcf26bf897e",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -4635,6 +4921,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/event-dispatcher/tree/v6.4.8"
 =======
                 "source": "https://github.com/symfony/event-dispatcher/tree/v6.4.7"
@@ -4654,6 +4941,9 @@
 =======
                 "source": "https://github.com/symfony/event-dispatcher/tree/v6.4.13"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/event-dispatcher/tree/v6.4.7"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -4669,6 +4959,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4694,6 +4985,9 @@
 =======
             "time": "2024-09-25T14:18:03+00:00"
 >>>>>>> sendMaill
+=======
+            "time": "2024-04-18T09:22:46+00:00"
+>>>>>>> id_encryption
         },
         {
             "name": "symfony/event-dispatcher-contracts",
@@ -4779,6 +5073,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v5.4.43",
             "source": {
                 "type": "git",
@@ -4798,6 +5093,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "version": "v5.4.39",
             "source": {
                 "type": "git",
@@ -4808,6 +5105,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/finder/zipball/f6a96e4fcd468a25fede16ee665f50ced856bd0a",
                 "reference": "f6a96e4fcd468a25fede16ee665f50ced856bd0a",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4833,6 +5131,8 @@
                 "url": "https://api.github.com/repos/symfony/finder/zipball/63741784cd7b9967975eec610b256eed3ede022b",
                 "reference": "63741784cd7b9967975eec610b256eed3ede022b",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -4872,6 +5172,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/finder/tree/v5.4.43"
 =======
                 "source": "https://github.com/symfony/finder/tree/v5.4.39"
@@ -4891,6 +5192,9 @@
 =======
                 "source": "https://github.com/symfony/finder/tree/v5.4.45"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/finder/tree/v5.4.39"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -4906,6 +5210,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4935,6 +5240,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "time": "2024-04-18T08:26:06+00:00"
         },
         {
@@ -4949,6 +5256,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-foundation/zipball/3356c93efc30b0c85a37606bdfef16b813faec0e",
                 "reference": "3356c93efc30b0c85a37606bdfef16b813faec0e",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4978,6 +5286,8 @@
                 "url": "https://api.github.com/repos/symfony/http-foundation/zipball/168b77c71e6f02d8fc479db78beaf742a37d3cab",
                 "reference": "168b77c71e6f02d8fc479db78beaf742a37d3cab",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -4987,6 +5297,7 @@
                 "symfony/polyfill-php80": "^1.16"
             },
             "require-dev": {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5012,6 +5323,9 @@
 =======
                 "predis/predis": "^1.0|^2.0",
 >>>>>>> sendMaill
+=======
+                "predis/predis": "~1.0",
+>>>>>>> id_encryption
                 "symfony/cache": "^4.4|^5.0|^6.0",
                 "symfony/dependency-injection": "^5.4|^6.0",
                 "symfony/expression-language": "^4.4|^5.0|^6.0",
@@ -5054,6 +5368,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-foundation/tree/v5.4.44"
 =======
                 "source": "https://github.com/symfony/http-foundation/tree/v5.4.39"
@@ -5073,6 +5388,9 @@
 =======
                 "source": "https://github.com/symfony/http-foundation/tree/v5.4.46"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/http-foundation/tree/v5.4.39"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -5088,6 +5406,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5117,6 +5436,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "time": "2024-04-18T08:26:06+00:00"
         },
         {
@@ -5131,6 +5452,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-kernel/zipball/1d812dc3a2863cc4246aaa636b0d71e0bf68e6b0",
                 "reference": "1d812dc3a2863cc4246aaa636b0d71e0bf68e6b0",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5160,6 +5482,8 @@
                 "url": "https://api.github.com/repos/symfony/http-kernel/zipball/0ac42d5e16317f15dc5f8ea83742c51d2ed2350f",
                 "reference": "0ac42d5e16317f15dc5f8ea83742c51d2ed2350f",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -5249,6 +5573,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-kernel/tree/v5.4.44"
 =======
                 "source": "https://github.com/symfony/http-kernel/tree/v5.4.39"
@@ -5268,6 +5593,9 @@
 =======
                 "source": "https://github.com/symfony/http-kernel/tree/v5.4.47"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/http-kernel/tree/v5.4.39"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -5283,6 +5611,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5312,6 +5641,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "time": "2024-04-29T11:17:46+00:00"
         },
         {
@@ -5326,6 +5657,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/mime/zipball/a5364f016fd9e090f7b4f250a97ea6925a5ca985",
                 "reference": "a5364f016fd9e090f7b4f250a97ea6925a5ca985",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5355,6 +5687,8 @@
                 "url": "https://api.github.com/repos/symfony/mime/zipball/8c1b9b3e5b52981551fc6044539af1d974e39064",
                 "reference": "8c1b9b3e5b52981551fc6044539af1d974e39064",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -5416,6 +5750,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/mime/tree/v5.4.43"
 =======
                 "source": "https://github.com/symfony/mime/tree/v5.4.39"
@@ -5435,6 +5770,9 @@
 =======
                 "source": "https://github.com/symfony/mime/tree/v5.4.45"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/mime/tree/v5.4.39"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -5450,6 +5788,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5487,6 +5826,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "time": "2024-04-18T08:26:06+00:00"
         },
         {
@@ -5509,6 +5850,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> customer_register
 =======
 >>>>>>> fulltextsearch
@@ -5520,6 +5862,8 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
             },
             "provide": {
                 "ext-ctype": "*"
@@ -5571,6 +5915,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-ctype/tree/v1.31.0"
 =======
                 "source": "https://github.com/symfony/polyfill-ctype/tree/v1.29.0"
@@ -5590,6 +5935,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-ctype/tree/v1.31.0"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.29.0"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -5605,6 +5953,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5641,6 +5990,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "time": "2024-01-29T20:11:03+00:00"
         },
         {
@@ -5663,6 +6014,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> customer_register
 =======
 >>>>>>> fulltextsearch
@@ -5674,6 +6026,8 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
             },
             "provide": {
                 "ext-iconv": "*"
@@ -5726,6 +6080,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-iconv/tree/v1.31.0"
 =======
                 "source": "https://github.com/symfony/polyfill-iconv/tree/v1.29.0"
@@ -5745,6 +6100,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-iconv/tree/v1.31.0"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/polyfill-iconv/tree/v1.29.0"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -5760,6 +6118,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5796,6 +6155,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "time": "2024-01-29T20:11:03+00:00"
         },
         {
@@ -5818,6 +6179,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> customer_register
 =======
 >>>>>>> fulltextsearch
@@ -5829,6 +6191,8 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -5879,6 +6243,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.31.0"
 =======
                 "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.29.0"
@@ -5898,6 +6263,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.31.0"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.29.0"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -5913,6 +6281,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5950,6 +6319,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "time": "2024-01-29T20:11:03+00:00"
         },
         {
@@ -5974,6 +6345,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> customer_register
 =======
 >>>>>>> fulltextsearch
@@ -5985,6 +6357,8 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -6039,6 +6413,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.31.0"
 =======
                 "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.29.0"
@@ -6058,6 +6433,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.31.0"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.29.0"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -6073,6 +6451,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6109,6 +6488,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "time": "2024-01-29T20:11:03+00:00"
         },
         {
@@ -6131,6 +6512,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> customer_register
 =======
 >>>>>>> fulltextsearch
@@ -6142,6 +6524,8 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -6195,6 +6579,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.31.0"
 =======
                 "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.29.0"
@@ -6214,6 +6599,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.31.0"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.29.0"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -6229,6 +6617,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6265,6 +6654,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "time": "2024-01-29T20:11:03+00:00"
         },
         {
@@ -6287,6 +6678,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> customer_register
 =======
 >>>>>>> fulltextsearch
@@ -6298,6 +6690,8 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
             },
             "provide": {
                 "ext-mbstring": "*"
@@ -6350,6 +6744,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.31.0"
 =======
                 "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.29.0"
@@ -6369,6 +6764,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.31.0"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.29.0"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -6384,6 +6782,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6420,6 +6819,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "time": "2024-01-29T20:11:03+00:00"
         },
         {
@@ -6515,6 +6916,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> customer_register
 =======
 >>>>>>> fulltextsearch
@@ -6526,6 +6928,8 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
             },
             "type": "library",
             "extra": {
@@ -6574,6 +6978,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-php73/tree/v1.31.0"
 =======
                 "source": "https://github.com/symfony/polyfill-php73/tree/v1.29.0"
@@ -6593,6 +6998,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-php73/tree/v1.31.0"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.29.0"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -6608,6 +7016,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6644,6 +7053,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "time": "2024-01-29T20:11:03+00:00"
         },
         {
@@ -6666,6 +7077,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> customer_register
 =======
 >>>>>>> fulltextsearch
@@ -6677,6 +7089,8 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
             },
             "type": "library",
             "extra": {
@@ -6729,6 +7143,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/polyfill-php80/tree/v1.31.0"
 =======
                 "source": "https://github.com/symfony/polyfill-php80/tree/v1.29.0"
@@ -6748,6 +7163,9 @@
 =======
                 "source": "https://github.com/symfony/polyfill-php80/tree/v1.31.0"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.29.0"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -6763,6 +7181,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6795,6 +7214,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "time": "2024-01-29T20:11:03+00:00"
         },
         {
@@ -6809,6 +7230,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/process/zipball/85a554acd7c28522241faf2e97b9541247a0d3d5",
                 "reference": "85a554acd7c28522241faf2e97b9541247a0d3d5",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6834,6 +7256,8 @@
                 "url": "https://api.github.com/repos/symfony/process/zipball/5d1662fb32ebc94f17ddb8d635454a776066733d",
                 "reference": "5d1662fb32ebc94f17ddb8d635454a776066733d",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -6872,6 +7296,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/process/tree/v5.4.44"
 =======
                 "source": "https://github.com/symfony/process/tree/v5.4.39"
@@ -6891,6 +7316,9 @@
 =======
                 "source": "https://github.com/symfony/process/tree/v5.4.47"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/process/tree/v5.4.39"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -6906,6 +7334,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6935,6 +7364,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "time": "2024-04-18T08:26:06+00:00"
         },
         {
@@ -6949,6 +7380,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/routing/zipball/5485974ef20de1150dd195a81e9da4915d45263f",
                 "reference": "5485974ef20de1150dd195a81e9da4915d45263f",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6978,6 +7410,8 @@
                 "url": "https://api.github.com/repos/symfony/routing/zipball/986597b3d1c86ecefe094c0c236a9e9ad22756f2",
                 "reference": "986597b3d1c86ecefe094c0c236a9e9ad22756f2",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -7044,6 +7478,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/routing/tree/v5.4.43"
 =======
                 "source": "https://github.com/symfony/routing/tree/v5.4.39"
@@ -7063,6 +7498,9 @@
 =======
                 "source": "https://github.com/symfony/routing/tree/v5.4.45"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/routing/tree/v5.4.39"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -7078,6 +7516,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7103,6 +7542,9 @@
 =======
             "time": "2024-09-30T08:44:06+00:00"
 >>>>>>> sendMaill
+=======
+            "time": "2024-04-18T08:26:06+00:00"
+>>>>>>> id_encryption
         },
         {
             "name": "symfony/service-contracts",
@@ -7195,6 +7637,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v6.4.12",
             "source": {
                 "type": "git",
@@ -7214,6 +7657,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "version": "v6.4.7",
             "source": {
                 "type": "git",
@@ -7224,6 +7669,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/string/zipball/ffeb9591c61f65a68d47f77d12b83fa530227a69",
                 "reference": "ffeb9591c61f65a68d47f77d12b83fa530227a69",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7249,6 +7695,8 @@
                 "url": "https://api.github.com/repos/symfony/string/zipball/73a5e66ea2e1677c98d4449177c5a9cf9d8b4c6f",
                 "reference": "73a5e66ea2e1677c98d4449177c5a9cf9d8b4c6f",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -7311,6 +7759,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/string/tree/v6.4.12"
 =======
                 "source": "https://github.com/symfony/string/tree/v6.4.7"
@@ -7330,6 +7779,9 @@
 =======
                 "source": "https://github.com/symfony/string/tree/v6.4.15"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/string/tree/v6.4.7"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -7345,6 +7797,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7374,6 +7827,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "time": "2024-04-18T09:22:46+00:00"
         },
         {
@@ -7388,6 +7843,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/translation/zipball/7495687c58bfd88b7883823747b0656d90679123",
                 "reference": "7495687c58bfd88b7883823747b0656d90679123",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7417,6 +7873,8 @@
                 "url": "https://api.github.com/repos/symfony/translation/zipball/bee9bfabfa8b4045a66bf82520e492cddbaffa66",
                 "reference": "bee9bfabfa8b4045a66bf82520e492cddbaffa66",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -7488,6 +7946,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/translation/tree/v6.4.12"
 =======
                 "source": "https://github.com/symfony/translation/tree/v6.4.7"
@@ -7507,6 +7966,9 @@
 =======
                 "source": "https://github.com/symfony/translation/tree/v6.4.13"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/translation/tree/v6.4.7"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -7522,6 +7984,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7547,6 +8010,9 @@
 =======
             "time": "2024-09-27T18:14:25+00:00"
 >>>>>>> sendMaill
+=======
+            "time": "2024-04-18T09:22:46+00:00"
+>>>>>>> id_encryption
         },
         {
             "name": "symfony/translation-contracts",
@@ -7634,6 +8100,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v5.4.43",
             "source": {
                 "type": "git",
@@ -7653,6 +8120,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "version": "v5.4.39",
             "source": {
                 "type": "git",
@@ -7663,6 +8132,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/var-dumper/zipball/1987f86ad7f339fe3d3e8e6cf3b7ce4d4b8e547e",
                 "reference": "1987f86ad7f339fe3d3e8e6cf3b7ce4d4b8e547e",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7688,6 +8158,8 @@
                 "url": "https://api.github.com/repos/symfony/var-dumper/zipball/e13e8dfa8eaab2b0536ef365beddc2af723a9ac0",
                 "reference": "e13e8dfa8eaab2b0536ef365beddc2af723a9ac0",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -7753,6 +8225,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/var-dumper/tree/v5.4.43"
 =======
                 "source": "https://github.com/symfony/var-dumper/tree/v5.4.39"
@@ -7772,6 +8245,9 @@
 =======
                 "source": "https://github.com/symfony/var-dumper/tree/v5.4.47"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/var-dumper/tree/v5.4.39"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -7787,6 +8263,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -7812,6 +8289,9 @@
 =======
             "time": "2024-11-08T15:21:10+00:00"
 >>>>>>> sendMaill
+=======
+            "time": "2024-04-18T08:26:06+00:00"
+>>>>>>> id_encryption
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -7874,6 +8354,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> sendMaill
             "version": "v5.6.1",
@@ -7896,6 +8377,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "version": "v5.6.0",
             "source": {
                 "type": "git",
@@ -7910,6 +8393,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> customer_register
 =======
 >>>>>>> fulltextsearch
@@ -7921,6 +8405,8 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -7931,6 +8417,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "graham-campbell/result-type": "^1.1.3",
                 "php": "^7.2.5 || ^8.0",
                 "phpoption/phpoption": "^1.9.3",
@@ -7964,6 +8451,11 @@
                 "php": "^7.2.5 || ^8.0",
                 "phpoption/phpoption": "^1.9.3",
 >>>>>>> sendMaill
+=======
+                "graham-campbell/result-type": "^1.1.2",
+                "php": "^7.2.5 || ^8.0",
+                "phpoption/phpoption": "^1.9.2",
+>>>>>>> id_encryption
                 "symfony/polyfill-ctype": "^1.24",
                 "symfony/polyfill-mbstring": "^1.24",
                 "symfony/polyfill-php80": "^1.24"
@@ -7986,6 +8478,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "forward-command": false
 =======
                     "forward-command": true
@@ -8005,6 +8498,9 @@
 =======
                     "forward-command": false
 >>>>>>> sendMaill
+=======
+                    "forward-command": true
+>>>>>>> id_encryption
                 },
                 "branch-alias": {
                     "dev-master": "5.6-dev"
@@ -8045,6 +8541,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/vlucas/phpdotenv/tree/v5.6.1"
 =======
                 "source": "https://github.com/vlucas/phpdotenv/tree/v5.6.0"
@@ -8064,6 +8561,9 @@
 =======
                 "source": "https://github.com/vlucas/phpdotenv/tree/v5.6.1"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/vlucas/phpdotenv/tree/v5.6.0"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -8081,6 +8581,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-07-20T21:52:34+00:00"
 =======
             "time": "2023-11-12T22:43:29+00:00"
@@ -8100,6 +8601,9 @@
 =======
             "time": "2024-07-20T21:52:34+00:00"
 >>>>>>> sendMaill
+=======
+            "time": "2023-11-12T22:43:29+00:00"
+>>>>>>> id_encryption
         },
         {
             "name": "voku/portable-ascii",
@@ -8242,6 +8746,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> fulltextsearch
@@ -8253,6 +8758,8 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
             "name": "barryvdh/laravel-debugbar",
             "version": "v3.7.0",
             "source": {
@@ -8342,6 +8849,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> customer_register
 =======
 >>>>>>> fulltextsearch
@@ -8353,6 +8861,8 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
             "name": "doctrine/instantiator",
             "version": "2.0.0",
             "source": {
@@ -8621,6 +9131,9 @@
         {
             "name": "fakerphp/faker",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
             "version": "v1.23.1",
             "source": {
                 "type": "git",
@@ -8631,6 +9144,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/bfb4fe148adbf78eff521199619b93a52ae3554b",
                 "reference": "bfb4fe148adbf78eff521199619b93a52ae3554b",
+<<<<<<< HEAD
 =======
             "version": "v1.24.1",
             "source": {
@@ -8643,6 +9157,8 @@
                 "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/e0ee18eb1e6dc3cda3ce9fd97e5a0689a88a64b5",
                 "reference": "e0ee18eb1e6dc3cda3ce9fd97e5a0689a88a64b5",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -8691,12 +9207,16 @@
             "support": {
                 "issues": "https://github.com/FakerPHP/Faker/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
                 "source": "https://github.com/FakerPHP/Faker/tree/v1.23.1"
             },
             "time": "2024-01-02T13:46:09+00:00"
         },
         {
             "name": "filp/whoops",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -8740,6 +9260,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "version": "2.15.4",
             "source": {
                 "type": "git",
@@ -8764,6 +9286,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> customer_register
 =======
 >>>>>>> fulltextsearch
@@ -8775,6 +9298,8 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
             },
             "suggest": {
                 "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
@@ -8820,6 +9345,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/filp/whoops/tree/2.16.0"
 =======
                 "source": "https://github.com/filp/whoops/tree/2.15.4"
@@ -8839,6 +9365,9 @@
 =======
                 "source": "https://github.com/filp/whoops/tree/2.16.0"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/filp/whoops/tree/2.15.4"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -8852,6 +9381,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-09-25T12:00:00+00:00"
 =======
             "time": "2023-11-03T12:00:00+00:00"
@@ -8871,6 +9401,9 @@
 =======
             "time": "2024-09-25T12:00:00+00:00"
 >>>>>>> sendMaill
+=======
+            "time": "2023-11-03T12:00:00+00:00"
+>>>>>>> id_encryption
         },
         {
             "name": "hamcrest/hamcrest-php",
@@ -8995,6 +9528,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> fulltextsearch
@@ -9004,6 +9538,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "name": "maximebf/debugbar",
             "version": "v1.22.3",
             "source": {
@@ -9015,6 +9551,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/maximebf/php-debugbar/zipball/7aa9a27a0b1158ed5ad4e7175e8d3aee9a818b96",
                 "reference": "7aa9a27a0b1158ed5ad4e7175e8d3aee9a818b96",
+<<<<<<< HEAD
 =======
             "name": "maximebf/debugbar",
             "version": "v1.23.3",
@@ -9028,6 +9565,8 @@
                 "url": "https://api.github.com/repos/maximebf/php-debugbar/zipball/687400043d77943ef95e8417cb44e1673ee57844",
                 "reference": "687400043d77943ef95e8417cb44e1673ee57844",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -9050,10 +9589,14 @@
             "extra": {
                 "branch-alias": {
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-master": "1.22-dev"
 =======
                     "dev-master": "1.23-dev"
 >>>>>>> sendMaill
+=======
+                    "dev-master": "1.22-dev"
+>>>>>>> id_encryption
                 }
             },
             "autoload": {
@@ -9085,11 +9628,15 @@
             "support": {
                 "issues": "https://github.com/maximebf/php-debugbar/issues",
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> id_encryption
                 "source": "https://github.com/maximebf/php-debugbar/tree/v1.22.3"
             },
             "time": "2024-04-03T19:39:26+00:00"
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9110,6 +9657,8 @@
         },
         {
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
             "name": "mockery/mockery",
             "version": "1.6.12",
             "source": {
@@ -9200,6 +9749,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "1.12.0",
             "source": {
                 "type": "git",
@@ -9219,6 +9769,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "version": "1.11.1",
             "source": {
                 "type": "git",
@@ -9229,6 +9781,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/7284c22080590fb39f2ffa3e9057f10a4ddd0e0c",
                 "reference": "7284c22080590fb39f2ffa3e9057f10a4ddd0e0c",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9254,6 +9807,8 @@
                 "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/123267b2c49fbf30d78a7b2d333f6be754b94845",
                 "reference": "123267b2c49fbf30d78a7b2d333f6be754b94845",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -9267,6 +9822,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "doctrine/common": "<2.13.3 || >=3 <3.2.2"
 =======
                 "doctrine/common": "<2.13.3 || >=3,<3.2.2"
@@ -9286,6 +9842,9 @@
 =======
                 "doctrine/common": "<2.13.3 || >=3 <3.2.2"
 >>>>>>> sendMaill
+=======
+                "doctrine/common": "<2.13.3 || >=3,<3.2.2"
+>>>>>>> id_encryption
             },
             "require-dev": {
                 "doctrine/collections": "^1.6.8",
@@ -9296,6 +9855,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "phpspec/prophecy": "^1.10",
 =======
 >>>>>>> customer_register
@@ -9310,6 +9870,8 @@
 =======
                 "phpspec/prophecy": "^1.10",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "phpunit/phpunit": "^7.5.20 || ^8.5.23 || ^9.5.13"
             },
             "type": "library",
@@ -9341,6 +9903,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/myclabs/DeepCopy/tree/1.12.0"
 =======
                 "source": "https://github.com/myclabs/DeepCopy/tree/1.11.1"
@@ -9360,6 +9923,9 @@
 =======
                 "source": "https://github.com/myclabs/DeepCopy/tree/1.12.1"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/myclabs/DeepCopy/tree/1.11.1"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -9367,6 +9933,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9392,6 +9959,9 @@
 =======
             "time": "2024-11-08T17:47:46+00:00"
 >>>>>>> sendMaill
+=======
+            "time": "2023-03-08T13:26:56+00:00"
+>>>>>>> id_encryption
         },
         {
             "name": "nunomaduro/collision",
@@ -9606,6 +10176,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> sendMaill
             "version": "9.2.32",
@@ -9628,6 +10199,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "version": "9.2.31",
             "source": {
                 "type": "git",
@@ -9638,6 +10211,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/48c34b5d8d983006bd2adc2d0de92963b9155965",
                 "reference": "48c34b5d8d983006bd2adc2d0de92963b9155965",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9653,12 +10227,15 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-libxml": "*",
                 "ext-xmlwriter": "*",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -9690,6 +10267,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
                 "nikic/php-parser": "^4.18 || ^5.0",
                 "php": ">=7.3",
                 "phpunit/php-file-iterator": "^3.0.3",
@@ -9707,6 +10286,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> customer_register
 =======
 >>>>>>> fulltextsearch
@@ -9718,6 +10298,8 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
             },
             "suggest": {
                 "ext-pcov": "PHP extension that provides line coverage",
@@ -9732,6 +10314,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     "dev-main": "9.2.x-dev"
 =======
                     "dev-master": "9.2-dev"
@@ -9751,6 +10334,9 @@
 =======
                     "dev-main": "9.2.x-dev"
 >>>>>>> sendMaill
+=======
+                    "dev-master": "9.2-dev"
+>>>>>>> id_encryption
                 }
             },
             "autoload": {
@@ -9785,6 +10371,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.32"
 =======
                 "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.31"
@@ -9804,6 +10391,9 @@
 =======
                 "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.32"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/9.2.31"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -9817,6 +10407,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-08-22T04:23:01+00:00"
 =======
             "time": "2024-03-02T06:37:42+00:00"
@@ -9836,6 +10427,9 @@
 =======
             "time": "2024-08-22T04:23:01+00:00"
 >>>>>>> sendMaill
+=======
+            "time": "2024-03-02T06:37:42+00:00"
+>>>>>>> id_encryption
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -10086,6 +10680,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> sendMaill
             "version": "9.6.21",
@@ -10112,6 +10707,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "version": "9.6.19",
             "source": {
                 "type": "git",
@@ -10130,6 +10727,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> customer_register
 =======
 >>>>>>> fulltextsearch
@@ -10141,12 +10739,15 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "ext-dom": "*",
                 "ext-json": "*",
                 "ext-libxml": "*",
                 "ext-mbstring": "*",
                 "ext-xml": "*",
                 "ext-xmlwriter": "*",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -10184,6 +10785,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
                 "myclabs/deep-copy": "^1.10.1",
                 "phar-io/manifest": "^2.0.3",
                 "phar-io/version": "^3.0.2",
@@ -10207,6 +10810,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> customer_register
 =======
 >>>>>>> fulltextsearch
@@ -10218,6 +10822,8 @@
 >>>>>>> wishlists
 =======
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "sebastian/version": "^3.0.2"
             },
             "suggest": {
@@ -10268,6 +10874,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.21"
 =======
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.19"
@@ -10287,6 +10894,9 @@
 =======
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.21"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.6.19"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -10308,6 +10918,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "time": "2024-09-19T10:50:18+00:00"
 =======
             "time": "2024-04-05T04:35:58+00:00"
@@ -10327,6 +10938,9 @@
 =======
             "time": "2024-09-19T10:50:18+00:00"
 >>>>>>> sendMaill
+=======
+            "time": "2024-04-05T04:35:58+00:00"
+>>>>>>> id_encryption
         },
         {
             "name": "sebastian/cli-parser",
@@ -11299,6 +11913,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             "version": "v6.4.12",
             "source": {
                 "type": "git",
@@ -11318,6 +11933,8 @@
 >>>>>>> customer_cart_history
 =======
 >>>>>>> wishlists
+=======
+>>>>>>> id_encryption
             "version": "v6.4.7",
             "source": {
                 "type": "git",
@@ -11328,6 +11945,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/yaml/zipball/53e8b1ef30a65f78eac60fddc5ee7ebbbdb1dee0",
                 "reference": "53e8b1ef30a65f78eac60fddc5ee7ebbbdb1dee0",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11353,6 +11971,8 @@
                 "url": "https://api.github.com/repos/symfony/yaml/zipball/e99b4e94d124b29ee4cf3140e1b537d2dad8cec9",
                 "reference": "e99b4e94d124b29ee4cf3140e1b537d2dad8cec9",
 >>>>>>> sendMaill
+=======
+>>>>>>> id_encryption
                 "shasum": ""
             },
             "require": {
@@ -11401,6 +12021,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/yaml/tree/v6.4.12"
 =======
                 "source": "https://github.com/symfony/yaml/tree/v6.4.7"
@@ -11420,6 +12041,9 @@
 =======
                 "source": "https://github.com/symfony/yaml/tree/v6.4.13"
 >>>>>>> sendMaill
+=======
+                "source": "https://github.com/symfony/yaml/tree/v6.4.7"
+>>>>>>> id_encryption
             },
             "funding": [
                 {
@@ -11435,6 +12059,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -11460,6 +12085,9 @@
 =======
             "time": "2024-09-25T14:18:03+00:00"
 >>>>>>> sendMaill
+=======
+            "time": "2024-04-28T10:28:08+00:00"
+>>>>>>> id_encryption
         },
         {
             "name": "theseer/tokenizer",

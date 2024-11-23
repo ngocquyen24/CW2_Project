@@ -1,5 +1,9 @@
 @extends('main')
 @section('content')
+@php
+use Illuminate\Support\Facades\Crypt;
+$encryptedProductId = Crypt::encrypt($product->id);
+@endphp
 <div class="container p-t-80">
     <div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
         <a href="/" class="stext-109 cl8 hov-cl1 trans-04">
@@ -7,7 +11,7 @@
             <i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
         </a>
 
-        <a href="/danh-muc/{{ $product->menu->id }}-{{ Str::slug($product->menu->name) }}.html"
+        <a href="/danh-muc/{{ $product->menu->id }}-{{ Str::slug($product->menu->name) }}-{{ $encryptedProductId }}.html"
             class="stext-109 cl8 hov-cl1 trans-04">
             {{ $product->menu->name }}
             <i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
@@ -26,7 +30,7 @@
                 <div class="p-l-25 p-r-30 p-lr-0-lg">
                     <div class="wrap-slick3 flex-sb flex-w">
                         <div class="wrap-slick3-dots">
-                            <ul class="slick3-dots" role="tablist">
+                            <ul class="slick3-dots"  role="tablist">
                                 <li class="slick-active" role="presentation">
                                     <img src="..\thumb\{{$product->thumb}}">
                                     <div class="slick3-dot-overlay"></div>

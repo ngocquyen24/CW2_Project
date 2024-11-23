@@ -46,6 +46,15 @@ Route::middleware(['auth'])->group(function () {
             Route::get('edit/{product}', [ProductController::class, 'show']);
             Route::post('edit/{product}', [ProductController::class, 'update']);
             Route::DELETE('destroy', [ProductController::class, 'destroy']);
+            Route::get('products/list', [ProductController::class, 'index'])->name('admin.products.list');
+            // Route chỉnh sửa sản phẩm
+            Route::prefix('admin')->group(function () {
+                // Route::get('products/edit/{encrypted_id}', [ProductController::class, 'edit'])->name('admin.products.edit');
+                // Route::post('products/update/{encrypted_id}', [ProductController::class, 'update'])->name('admin.products.update');
+                // Route::post('/admin/products/update/{encrypted_id}', [ProductController::class, 'update'])->name('admin.products.update');
+                Route::get('admin/products/edit/{encrypted_id}', [ProductController::class, 'edit'])->name('admin.products.edit');
+                Route::post('admin/products/update/{encrypted_id}', [ProductController::class, 'update'])->name('admin.products.update');
+            });
         });
 
         #Slider
@@ -72,7 +81,16 @@ Route::get('/', [App\Http\Controllers\MainController::class, 'index']);
 Route::post('/services/load-product', [App\Http\Controllers\MainController::class, 'loadProduct']);
 
 Route::get('danh-muc/{id}-{slug}.html', [App\Http\Controllers\MenuController::class, 'index']);
-Route::get('san-pham/{id}-{slug}.html', [App\Http\Controllers\ProductControllerView::class, 'index']);
+// Route::get('danh-muc/{id}-{slug}.html', [MenuController::class, 'index'])->name('menu.index');
+// Route::get('/admin/menus/edit/{encrypted_id}', [MenuController::class, 'edit'])->name('admin.menus.edit');
+// Route::post('/admin/menus/update/{encrypted_id}', [MenuController::class, 'update'])->name('admin.menus.update');
+// Route::post('/admin/menus/destroy', [MenuController::class, 'destroy'])->name('admin.menus.destroy');
+
+
+// Route::get('san-pham/{id}-{slug}.html', [App\Http\Controllers\ProductControllerView::class, 'index']);
+Route::get('san-pham/{encrypted_id}-{slug}.html', [App\Http\Controllers\ProductControllerView::class, 'index']);
+
+
 
 Route::post('add-cart', [App\Http\Controllers\CartController::class, 'index']);
 Route::get('carts', [App\Http\Controllers\CartController::class, 'show']);

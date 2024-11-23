@@ -3,9 +3,10 @@
 @section('head')
     <script src="/ckeditor/ckeditor.js"></script>
 @endsection
-
-@section('content')
-    <form action="" method="POST" enctype="multipart/form-data" >
+<!-- mã hóa -->
+@section('content') 
+<form action="{{ route('admin.products.update', ['encrypted_id' => $encrypted_id]) }}" method="POST" enctype="multipart/form-data">
+    @csrf
         <div class="card-body">
             <div class="row">
                 <div class="col-md-6">
