@@ -2,11 +2,13 @@
 
 use App\Models\Customer;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ReviewController;
+use App\Http\Controllers\WishlistController;
 use App\Http\Controllers\Admin\MainController;
 use App\Http\Controllers\Admin\MenuController;
+use App\Http\Controllers\SliderControllerView;
 use App\Http\Controllers\ProductControllerView;
 use App\Http\Controllers\Admin\SliderController;
-use App\Http\Controllers\SliderControllerView;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Admin\Users\LoginController;
 use App\Http\Controllers\Customer\CustomerCartController;
@@ -96,6 +98,19 @@ Route::get('customer/register', [LoginCustomerController::class, 'indexRegister'
 Route::post('customer/register', [LoginCustomerController::class, 'register'])->name('register.customer');
 Route::post('signout', [LoginCustomerController::class, 'signOut'])->name('signout.customer');
 
+
+
+
+Route::get('/product/{productId}/reviews', [ReviewController::class, 'index']); // Để hiển thị trang review
+Route::post('/product/{productId}/reviews', [ReviewController::class, 'store'])->name('reviews.store'); // Để thêm đánh giá
+
+
+
+// Route để thêm sản phẩm vào wishlist
+Route::post('/wishlist/{productId}', [WishlistController::class, 'store'])->name('wishlist.store');
+
+// Route để hiển thị danh sách sản phẩm yêu thích
+Route::post('/wishlist', [WishlistController::class, 'index'])->name('wishlist.index');
 
 
 

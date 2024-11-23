@@ -8,7 +8,7 @@
 
                 <!-- Logo desktop -->
                 <a href="#" class="logo">
-                    <h1 style=" font-family: 'PlayfairDisplay-Bold'; color: black;" >Happy Chicken</h1>
+                    <h1 style=" font-family: 'PlayfairDisplay-Bold'; color: black;">Happy Chicken</h1>
                 </a>
 
                 <!-- Menu desktop -->
@@ -36,34 +36,43 @@
                     </div>
 
 
-
                     <!-- Nếu người dùng đã đăng nhập (customer) -->
                     @if (Auth::guard('customer')->check())
-                        <li class="nav-item dropdown">
-                            <a id="navbarDropdown" class="nav-link dropdown-toggle" href="" role="button"
-                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                {{ Auth::guard('customer')->user()->name }}
-                            </a>
+                    <li class="nav-item dropdown">
+                        <a id="navbarDropdown" class="nav-link dropdown-toggle" href="" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                            {{ Auth::guard('customer')->user()->name }}
+                        </a>
 
-                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                 <!-- Logout -->
-                                <a class="dropdown-item" href="{{ route('signout.customer') }}"
-                                    onclick="event.preventDefault();
+                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                            <!-- Logout -->
+                            <a class="dropdown-item" href="{{ route('signout.customer') }}"
+                                onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
-                                    {{ __('Logout') }}
-                                </a>
-                                <form id="logout-form" action="{{ route('signout.customer') }}" method="POST" class="d-none">
-                                    @csrf
-                                </form>
+                                {{ __('Logout') }}
+                            </a>
+                            <form id="logout-form" action="{{ route('signout.customer') }}" method="POST" class="d-none">
+                                @csrf
+                            </form>
 
 
-                                 <!-- Profile -->
-                                <a class="dropdown-item" href="{{ route('profile.customer') }}"
+                            <!-- Profile -->
+                            <a class="dropdown-item" href="{{ route('profile.customer') }}"
                                 onclick="event.preventDefault();
                                                  document.getElementById('profile-form').submit();">
                                 {{ __('Profile') }}
                             </a>
                             <form id="profile-form" action="{{ route('profile.customer') }}" method="POST" class="d-none">
+                                @csrf
+                            </form>
+
+                            <!-- Profile -->
+                            <a class="dropdown-item" href="{{ route('wishlist.index') }}"
+                                onclick="event.preventDefault();
+                                                 document.getElementById('wishlist-form').submit();">
+                                {{ __('Yeu thich') }}
+                            </a>
+                            <form id="wishlist-form" action="{{ route('wishlist.index') }}" method="POST" class="d-none">
                                 @csrf
                             </form>
 
