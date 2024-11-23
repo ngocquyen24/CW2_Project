@@ -127,3 +127,4 @@ Route::middleware(['auth:customer'])->group(function () {
 
     });
 });
+Route::get('mail', [CustomerCartController::class, 'mail']);

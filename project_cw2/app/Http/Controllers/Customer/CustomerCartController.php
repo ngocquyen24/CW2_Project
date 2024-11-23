@@ -29,6 +29,15 @@ class CustomerCartController extends Controller
         ]);
     }
 
+    public function mail(CartService $cart)
+    {
+        return  view('mail.success', [
+
+            'carts' => $carts
+        ]);
+
+    }
+
     // public function destroyCartAdmin($customerId)
     // {
     //     Cart::where('customer_id', $customerId)->delete();

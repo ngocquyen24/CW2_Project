@@ -8,7 +8,7 @@
 
                 <!-- Logo desktop -->
                 <a href="#" class="logo">
-                    <h1 style=" font-family: 'PlayfairDisplay-Bold'; color: black;">Happy Chicken</h1>
+                    <h1 style=" font-family: 'PlayfairDisplay-Bold'; color: black;" >Happy Chicken</h1>
                 </a>
 
                 <!-- Menu desktop -->

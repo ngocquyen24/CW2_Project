@@ -2,14 +2,15 @@
 
 namespace App\Jobs;
 
+use App\Jobs\SendMail;
 use App\Mail\OrderShipped;
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldBeUnique;
+use Illuminate\Support\Facades\Mail;
+use Illuminate\Queue\SerializesModels;
+use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;
-use Illuminate\Queue\InteractsWithQueue;
-use Illuminate\Queue\SerializesModels;
-use Illuminate\Support\Facades\Mail;
+use Illuminate\Contracts\Queue\ShouldBeUnique;
 
 class SendMail implements ShouldQueue
 {
@@ -33,6 +34,6 @@ class SendMail implements ShouldQueue
      */
     public function handle()
     {
-        Mail::to($this->email)->send(new OrderShipped());
+        Mail::to($this->email)->send(new OrderShipped($cart));
     }
 }

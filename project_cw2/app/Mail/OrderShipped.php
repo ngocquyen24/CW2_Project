@@ -2,10 +2,11 @@
 
 namespace App\Mail;
 
+use App\Mail\OrderShipped;
 use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Contracts\Queue\ShouldQueue;
 
 class OrderShipped extends Mailable
 {
@@ -16,18 +17,17 @@ class OrderShipped extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public $cart;
+
+    public function __construct(Cart $cart)
     {
-        //
+        $this->cart = $cart;
     }
 
-    /**
-     * Build the message.
-     *
-     * @return $this
-     */
     public function build()
     {
-        return $this->view('mail.success');
+        return $this->view('email.success')
+                    ->with(['cart' => $this->cart]);
     }
 }
+
